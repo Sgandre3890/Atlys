@@ -1,0 +1,70 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.2">
+  <diagram name="Page-1" id="nC21Rwhk92O9Su28ZoCG">
+    <mxGraphModel dx="1188" dy="568" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="85sUZMAG6utRhY9mCPXt-20" edge="1" parent="1" source="85sUZMAG6utRhY9mCPXt-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="85sUZMAG6utRhY9mCPXt-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="85sUZMAG6utRhY9mCPXt-24" edge="1" parent="1" source="85sUZMAG6utRhY9mCPXt-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="85sUZMAG6utRhY9mCPXt-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="85sUZMAG6utRhY9mCPXt-1" parent="1" style="html=1;whiteSpace=wrap;fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#b3b3b3;" value="&lt;font style=&quot;font-size: 18px;&quot; face=&quot;Verdana&quot;&gt;3D Model Loader&lt;/font&gt;" vertex="1">
+          <mxGeometry height="80" width="150" x="370" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="85sUZMAG6utRhY9mCPXt-11" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Web Based&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;3D model loader&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Obj:Camera&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Projection matrix&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ GLSL: lighting&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Scene&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ GLTF: model loader&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="140" width="190" x="120" y="245" as="geometry" />
+        </mxCell>
+        <mxCell id="85sUZMAG6utRhY9mCPXt-16" edge="1" parent="1" source="85sUZMAG6utRhY9mCPXt-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" target="85sUZMAG6utRhY9mCPXt-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="85sUZMAG6utRhY9mCPXt-12" parent="1" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#fad7ac;strokeColor=#b46504;" value="WebGL" vertex="1">
+          <mxGeometry height="50" width="70" x="390" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="85sUZMAG6utRhY9mCPXt-17" edge="1" parent="1" source="85sUZMAG6utRhY9mCPXt-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="85sUZMAG6utRhY9mCPXt-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="85sUZMAG6utRhY9mCPXt-26" edge="1" parent="1" source="85sUZMAG6utRhY9mCPXt-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="85sUZMAG6utRhY9mCPXt-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="85sUZMAG6utRhY9mCPXt-13" parent="1" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#fad7ac;strokeColor=#b46504;" value="GLTF" vertex="1">
+          <mxGeometry height="50" width="70" x="390" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="85sUZMAG6utRhY9mCPXt-22" edge="1" parent="1" source="85sUZMAG6utRhY9mCPXt-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" target="85sUZMAG6utRhY9mCPXt-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="85sUZMAG6utRhY9mCPXt-14" parent="1" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#fad7ac;strokeColor=#b46504;" value="Three.js" vertex="1">
+          <mxGeometry height="50" width="70" x="390" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="85sUZMAG6utRhY9mCPXt-23" edge="1" parent="1" source="85sUZMAG6utRhY9mCPXt-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="85sUZMAG6utRhY9mCPXt-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="85sUZMAG6utRhY9mCPXt-25" edge="1" parent="1" source="85sUZMAG6utRhY9mCPXt-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="85sUZMAG6utRhY9mCPXt-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="85sUZMAG6utRhY9mCPXt-15" parent="1" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#fad7ac;strokeColor=#b46504;" value="GLSL" vertex="1">
+          <mxGeometry height="50" width="70" x="390" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="85sUZMAG6utRhY9mCPXt-21" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Web Based&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;3D model loader&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Obj:Camera&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Projection matrix&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ GLSL: lighting&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Scene&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ GLTF: model loader&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="140" width="190" x="560" y="245" as="geometry" />
+        </mxCell>
+        <mxCell id="85sUZMAG6utRhY9mCPXt-29" edge="1" parent="1" source="85sUZMAG6utRhY9mCPXt-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=20;exitDy=0;exitPerimeter=0;" target="85sUZMAG6utRhY9mCPXt-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="490" y="350" />
+              <mxPoint x="540" y="350" />
+              <mxPoint x="540" y="315" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="85sUZMAG6utRhY9mCPXt-27" parent="1" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#fad7ac;strokeColor=#b46504;" value="OpenGL" vertex="1">
+          <mxGeometry height="50" width="70" x="470" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="85sUZMAG6utRhY9mCPXt-32" parent="1" style="html=1;whiteSpace=wrap;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" value="Server" vertex="1">
+          <mxGeometry height="50" width="110" x="160" y="460" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
