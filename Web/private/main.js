@@ -81,9 +81,7 @@ if (!gl.getProgramParameter(program, gl.LINK_STATUS)) {
 
 gl.useProgram(program);
 
-// ----------------------------
-// Geometry (Triangle)
-// ----------------------------
+// Geometry 
 
 const vertices = new Float32Array([
     0.0,  0.5, 0.0,
@@ -99,13 +97,32 @@ const aPos = gl.getAttribLocation(program, "aPos");
 gl.enableVertexAttribArray(aPos);
 gl.vertexAttribPointer(aPos, 3, gl.FLOAT, false, 0, 0);
 
-// ----------------------------
+function resizeCanvasToWidescreen(canvas) {
+    const aspect = 4 / 3;
+
+    let width = window.innerWidth;
+    let height = window.innerHeight;
+
+    if (width / height > aspect) {
+        width = height * aspect;
+    } else {
+        height = width / aspect;
+    }
+
+    canvas.width = width;
+    canvas.height = height;
+
+    gl.viewport(0, 0, canvas.width, canvas.height);
+}
+
 // Render Loop
-// ----------------------------
 
 function render() {
+    resizeCanvasToWidescreen(canvas);
+
     gl.clear(gl.COLOR_BUFFER_BIT | gl.DEPTH_BUFFER_BIT);
     gl.drawArrays(gl.TRIANGLES, 0, 3);
+
     requestAnimationFrame(render);
 }
 
