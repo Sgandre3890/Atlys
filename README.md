@@ -5,7 +5,7 @@ Individual Repo for IB com sci class - 2026
 UML Diagram
 ![Diagram](Resources/Images/UMLDiagram.png)
 Mockup Program
-![Mockup](Resources/Images/Mockup.png)
+![Mockup](Resources/Images/RunningExample.png)
 
 ### Examples from other repos
 -https://wikis.khronos.org/webgl/Demo_Repository
