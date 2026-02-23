@@ -1,5 +1,4 @@
-# Individual Project
-Individual Repo for IB com sci class - 2026
+# Atlys
 
 ## 3D Model Loader
 UML Diagram
