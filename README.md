@@ -9,6 +9,9 @@ Mockup Program
 ### Examples from other repos
 -https://wikis.khronos.org/webgl/Demo_Repository
 
+### Live example of the mockup from other Repo I made:
+https://sgandre3890.github.io/UltraKill/
+
 ### Description:
 The purpose of this project is to have some kind of universal model loader. The idea is to have both a native and web based approach where the web based model loder would be able to load more simple models that everyone in the class could interact with. And the native version could be for more complex and demanding tasks that would have more complex lighting for physics.
 
