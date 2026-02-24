@@ -1,0 +1,38 @@
+cmake_minimum_required(VERSION 3.31)
+
+project(OpenGl)
+
+set(CMAKE_BUILD_TYPE Release)
+
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -m64")
+set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -m64")
+
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED True)
+
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR})
+
+include_directories(${CMAKE_SOURCE_DIR}/include)
+include_directories(${CMAKE_SOURCE_DIR}/include/stb)
+include_directories(${CMAKE_SOURCE_DIR}/include/glm-0.9.9.7/glm)
+include_directories(${CMAKE_SOURCE_DIR}/include/headers)
+include_directories(${CMAKE_SOURCE_DIR}/include/json)
+include_directories(${CMAKE_SOURCE_DIR}/include/Resources)
+
+
+file(GLOB SOURCES "src/*.cpp")
+
+add_executable(out ${SOURCES})
+
+if (CMAKE_SYSTEM_NAME STREQUAL "Windows")
+    target_link_libraries(out "${CMAKE_SOURCE_DIR}/statLib/libglfw3WIN.a")
+    target_link_libraries(out "${CMAKE_SOURCE_DIR}/statLib/libgladWIN.a")
+else ()
+    target_link_libraries(out
+    "-framework CoreFoundation"
+    "-framework IOKit"
+    "-framework Cocoa"
+)
+    target_link_libraries(out "${CMAKE_SOURCE_DIR}/statLib/libglfw3MAC.a")
+    target_link_libraries(out "${CMAKE_SOURCE_DIR}/statLib/libgladMAC.a")
+endif()
