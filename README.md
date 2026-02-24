@@ -1,5 +1,4 @@
-# Individual Project
-Individual Repo for IB com sci class - 2026
+# Atlys
 
 ## 3D Model Loader
 UML Diagram
@@ -10,7 +9,13 @@ Mockup Program
 ### Examples from other repos
 -https://wikis.khronos.org/webgl/Demo_Repository
 
-### Discription:
+### Live example of the mockup:
+https://sgandre3890.github.io/UltraKill/
+
+### My Native OpenGL Repo:
+https://github.com/Sgandre3890/OpenGL
+
+### Description:
 The purpose of this project is to have some kind of universal model loader. The idea is to have both a native and web based approach where the web based model loder would be able to load more simple models that everyone in the class could interact with. And the native version could be for more complex and demanding tasks that would have more complex lighting for physics.
 
 
