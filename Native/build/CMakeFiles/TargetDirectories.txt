@@ -1,0 +1,3 @@
+/Users/seangandre/Documents/GitHub/Atlys/Native/build/CMakeFiles/out.dir
+/Users/seangandre/Documents/GitHub/Atlys/Native/build/CMakeFiles/edit_cache.dir
+/Users/seangandre/Documents/GitHub/Atlys/Native/build/CMakeFiles/rebuild_cache.dir
