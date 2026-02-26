@@ -1,5 +1,5 @@
 cd build
 cmake ..
-cmake --build . --config Release
+cmake --build . 
 cd ..
 ./out
