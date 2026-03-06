@@ -14,6 +14,7 @@ https://sgandre3890.github.io/UltraKill/
 
 ### My Native OpenGL Repo:
 https://github.com/Sgandre3890/OpenGL
+![Diagram](Resources/Images/Native_UML_Screenshot.png)
 
 ### Tutorials from which I learned openGL for Native:
 - https://learnopengl.com/book/book_pdf.pdf
