@@ -46,9 +46,7 @@ cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
 cmake --build build --parallel
 
 # 4. Run
-./build/gltf_loader path/to/model.glb
-./build/gltf_loader path/to/model.gltf
-```
+./build/gltf_loader 
 
 > **Windows (MSVC):** open the generated `.sln`, or run
 > `cmake --build build --config Release`
