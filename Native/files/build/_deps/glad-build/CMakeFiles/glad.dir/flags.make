@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = 
 
-C_INCLUDES = -I/Users/seangandre/Downloads/files/build/_deps/glad-build/include
+C_INCLUDES = -I/Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/glad-build/include
 
 C_FLAGSarm64 = -O3 -DNDEBUG -arch arm64
 

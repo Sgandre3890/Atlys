@@ -53,10 +53,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/seangandre/Downloads/files
+CMAKE_SOURCE_DIR = /Users/seangandre/Documents/GitHub/Atlys/Native/files
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/seangandre/Downloads/files/build
+CMAKE_BINARY_DIR = /Users/seangandre/Documents/GitHub/Atlys/Native/files/build
 
 # Utility rule file for glad-generate-files.
 
@@ -70,8 +70,8 @@ _deps/glad-build/CMakeFiles/glad-generate-files: _deps/glad-build/include/glad/g
 _deps/glad-build/CMakeFiles/glad-generate-files: _deps/glad-build/src/glad.c
 
 _deps/glad-build/include/glad/glad.h:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/seangandre/Downloads/files/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating GLAD"
-	cd /Users/seangandre/Downloads/files/build/_deps/glad-src && /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9 -m glad --profile=core --out-path=/Users/seangandre/Downloads/files/build/_deps/glad-build --api=gl=3.3 --generator=c --extensions= --spec=gl
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/seangandre/Documents/GitHub/Atlys/Native/files/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating GLAD"
+	cd /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/glad-src && /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9 -m glad --profile=core --out-path=/Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/glad-build --api=gl=3.3 --generator=c --extensions= --spec=gl
 
 _deps/glad-build/src/glad.c: _deps/glad-build/include/glad/glad.h
 	@$(CMAKE_COMMAND) -E touch_nocreate _deps/glad-build/src/glad.c
@@ -90,10 +90,10 @@ _deps/glad-build/CMakeFiles/glad-generate-files.dir/build: glad-generate-files
 .PHONY : _deps/glad-build/CMakeFiles/glad-generate-files.dir/build
 
 _deps/glad-build/CMakeFiles/glad-generate-files.dir/clean:
-	cd /Users/seangandre/Downloads/files/build/_deps/glad-build && $(CMAKE_COMMAND) -P CMakeFiles/glad-generate-files.dir/cmake_clean.cmake
+	cd /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/glad-build && $(CMAKE_COMMAND) -P CMakeFiles/glad-generate-files.dir/cmake_clean.cmake
 .PHONY : _deps/glad-build/CMakeFiles/glad-generate-files.dir/clean
 
 _deps/glad-build/CMakeFiles/glad-generate-files.dir/depend:
-	cd /Users/seangandre/Downloads/files/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/seangandre/Downloads/files /Users/seangandre/Downloads/files/build/_deps/glad-src /Users/seangandre/Downloads/files/build /Users/seangandre/Downloads/files/build/_deps/glad-build /Users/seangandre/Downloads/files/build/_deps/glad-build/CMakeFiles/glad-generate-files.dir/DependInfo.cmake "--color=$(COLOR)" glad-generate-files
+	cd /Users/seangandre/Documents/GitHub/Atlys/Native/files/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/seangandre/Documents/GitHub/Atlys/Native/files /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/glad-src /Users/seangandre/Documents/GitHub/Atlys/Native/files/build /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/glad-build /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/glad-build/CMakeFiles/glad-generate-files.dir/DependInfo.cmake "--color=$(COLOR)" glad-generate-files
 .PHONY : _deps/glad-build/CMakeFiles/glad-generate-files.dir/depend
 

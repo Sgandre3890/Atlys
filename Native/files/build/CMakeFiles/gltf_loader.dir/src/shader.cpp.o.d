@@ -1,8 +1,8 @@
 CMakeFiles/gltf_loader.dir/src/shader.cpp.o: \
-  /Users/seangandre/Downloads/files/src/shader.cpp \
-  /Users/seangandre/Downloads/files/include/shader.h \
-  /Users/seangandre/Downloads/files/build/_deps/glad-build/include/glad/glad.h \
-  /Users/seangandre/Downloads/files/build/_deps/glad-build/include/KHR/khrplatform.h \
+  /Users/seangandre/Documents/GitHub/Atlys/Native/files/src/shader.cpp \
+  /Users/seangandre/Documents/GitHub/Atlys/Native/files/include/shader.h \
+  /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/glad-build/include/glad/glad.h \
+  /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/glad-build/include/KHR/khrplatform.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/stdint.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config_site \

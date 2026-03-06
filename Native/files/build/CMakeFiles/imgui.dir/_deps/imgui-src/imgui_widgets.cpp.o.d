@@ -1,7 +1,7 @@
 CMakeFiles/imgui.dir/_deps/imgui-src/imgui_widgets.cpp.o: \
-  /Users/seangandre/Downloads/files/build/_deps/imgui-src/imgui_widgets.cpp \
-  /Users/seangandre/Downloads/files/build/_deps/imgui-src/imgui.h \
-  /Users/seangandre/Downloads/files/build/_deps/imgui-src/imconfig.h \
+  /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/imgui-src/imgui_widgets.cpp \
+  /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/imgui-src/imgui.h \
+  /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/imgui-src/imconfig.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/float.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config_site \
@@ -67,7 +67,7 @@ CMakeFiles/imgui.dir/_deps/imgui-src/imgui_widgets.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_strings.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/assert.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_static_assert.h \
-  /Users/seangandre/Downloads/files/build/_deps/imgui-src/imgui_internal.h \
+  /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/imgui-src/imgui_internal.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_stdio.h \
@@ -248,4 +248,4 @@ CMakeFiles/imgui.dir/_deps/imgui-src/imgui_widgets.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/arm/limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/arm/_limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/syslimits.h \
-  /Users/seangandre/Downloads/files/build/_deps/imgui-src/imstb_textedit.h
+  /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/imgui-src/imstb_textedit.h

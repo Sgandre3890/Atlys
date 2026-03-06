@@ -1,6 +1,6 @@
 CMakeFiles/gltf_loader.dir/src/model.cpp.o: \
-  /Users/seangandre/Downloads/files/src/model.cpp \
-  /Users/seangandre/Downloads/files/build/_deps/tinygltf-src/tiny_gltf.h \
+  /Users/seangandre/Documents/GitHub/Atlys/Native/files/src/model.cpp \
+  /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinygltf-src/tiny_gltf.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/array \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/equal.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/comp.h \
@@ -820,7 +820,7 @@ CMakeFiles/gltf_loader.dir/src/model.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/u8path.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/sstream \
-  /Users/seangandre/Downloads/files/build/_deps/tinygltf-src/json.hpp \
+  /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinygltf-src/json.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/numeric \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/accumulate.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/adjacent_difference.h \
@@ -838,12 +838,12 @@ CMakeFiles/gltf_loader.dir/src/model.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_execution_policy.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/forward_list \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/valarray \
-  /Users/seangandre/Downloads/files/build/_deps/tinygltf-src/stb_image.h \
-  /Users/seangandre/Downloads/files/build/_deps/tinygltf-src/stb_image_write.h \
+  /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinygltf-src/stb_image.h \
+  /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinygltf-src/stb_image_write.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/TargetConditionals.h \
-  /Users/seangandre/Downloads/files/include/model.h \
-  /Users/seangandre/Downloads/files/build/_deps/glad-build/include/glad/glad.h \
-  /Users/seangandre/Downloads/files/build/_deps/glad-build/include/KHR/khrplatform.h \
+  /Users/seangandre/Documents/GitHub/Atlys/Native/files/include/model.h \
+  /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/glad-build/include/glad/glad.h \
+  /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/glad-build/include/KHR/khrplatform.h \
   /opt/homebrew/include/glm/glm.hpp \
   /opt/homebrew/include/glm/detail/_fixes.hpp \
   /opt/homebrew/include/glm/detail/setup.hpp \
@@ -1037,7 +1037,7 @@ CMakeFiles/gltf_loader.dir/src/model.cpp.o: \
   /opt/homebrew/include/glm/vector_relational.hpp \
   /opt/homebrew/include/glm/integer.hpp \
   /opt/homebrew/include/glm/detail/func_integer.inl \
-  /Users/seangandre/Downloads/files/include/shader.h \
+  /Users/seangandre/Documents/GitHub/Atlys/Native/files/include/shader.h \
   /opt/homebrew/include/glm/gtc/matrix_transform.hpp \
   /opt/homebrew/include/glm/gtc/../mat4x4.hpp \
   /opt/homebrew/include/glm/gtc/../vec2.hpp \

@@ -1,7 +1,7 @@
 CMakeFiles/imgui.dir/_deps/imgui-src/backends/imgui_impl_glfw.cpp.o: \
-  /Users/seangandre/Downloads/files/build/_deps/imgui-src/backends/imgui_impl_glfw.cpp \
-  /Users/seangandre/Downloads/files/build/_deps/imgui-src/imgui.h \
-  /Users/seangandre/Downloads/files/build/_deps/imgui-src/imconfig.h \
+  /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/imgui-src/backends/imgui_impl_glfw.cpp \
+  /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/imgui-src/imgui.h \
+  /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/imgui-src/imconfig.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/float.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config_site \
@@ -67,7 +67,7 @@ CMakeFiles/imgui.dir/_deps/imgui-src/backends/imgui_impl_glfw.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_strings.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/assert.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_static_assert.h \
-  /Users/seangandre/Downloads/files/build/_deps/imgui-src/backends/imgui_impl_glfw.h \
+  /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/imgui-src/backends/imgui_impl_glfw.h \
   /opt/homebrew/include/GLFW/glfw3.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_rsize_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/stdint.h \

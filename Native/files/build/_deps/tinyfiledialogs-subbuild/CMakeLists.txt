@@ -28,8 +28,8 @@ set_property(GLOBAL PROPERTY _CMAKE_FindGit_GIT_EXECUTABLE_VERSION
 include(ExternalProject)
 ExternalProject_Add(tinyfiledialogs-populate
                      "UPDATE_DISCONNECTED" "False" "GIT_REPOSITORY" "https://git.code.sf.net/p/tinyfiledialogs/code" "EXTERNALPROJECT_INTERNAL_ARGUMENT_SEPARATOR" "GIT_TAG" "master"
-                    SOURCE_DIR          "/Users/seangandre/Downloads/files/build/_deps/tinyfiledialogs-src"
-                    BINARY_DIR          "/Users/seangandre/Downloads/files/build/_deps/tinyfiledialogs-build"
+                    SOURCE_DIR          "/Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinyfiledialogs-src"
+                    BINARY_DIR          "/Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinyfiledialogs-build"
                     CONFIGURE_COMMAND   ""
                     BUILD_COMMAND       ""
                     INSTALL_COMMAND     ""

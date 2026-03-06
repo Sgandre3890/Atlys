@@ -53,10 +53,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/seangandre/Downloads/files
+CMAKE_SOURCE_DIR = /Users/seangandre/Documents/GitHub/Atlys/Native/files
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/seangandre/Downloads/files/build
+CMAKE_BINARY_DIR = /Users/seangandre/Documents/GitHub/Atlys/Native/files/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/gltf_loader.dir/depend.make
@@ -73,60 +73,60 @@ CMakeFiles/gltf_loader.dir/codegen:
 .PHONY : CMakeFiles/gltf_loader.dir/codegen
 
 CMakeFiles/gltf_loader.dir/src/main.cpp.o: CMakeFiles/gltf_loader.dir/flags.make
-CMakeFiles/gltf_loader.dir/src/main.cpp.o: /Users/seangandre/Downloads/files/src/main.cpp
+CMakeFiles/gltf_loader.dir/src/main.cpp.o: /Users/seangandre/Documents/GitHub/Atlys/Native/files/src/main.cpp
 CMakeFiles/gltf_loader.dir/src/main.cpp.o: CMakeFiles/gltf_loader.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/seangandre/Downloads/files/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/gltf_loader.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gltf_loader.dir/src/main.cpp.o -MF CMakeFiles/gltf_loader.dir/src/main.cpp.o.d -o CMakeFiles/gltf_loader.dir/src/main.cpp.o -c /Users/seangandre/Downloads/files/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/seangandre/Documents/GitHub/Atlys/Native/files/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/gltf_loader.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gltf_loader.dir/src/main.cpp.o -MF CMakeFiles/gltf_loader.dir/src/main.cpp.o.d -o CMakeFiles/gltf_loader.dir/src/main.cpp.o -c /Users/seangandre/Documents/GitHub/Atlys/Native/files/src/main.cpp
 
 CMakeFiles/gltf_loader.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/gltf_loader.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/seangandre/Downloads/files/src/main.cpp > CMakeFiles/gltf_loader.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/seangandre/Documents/GitHub/Atlys/Native/files/src/main.cpp > CMakeFiles/gltf_loader.dir/src/main.cpp.i
 
 CMakeFiles/gltf_loader.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/gltf_loader.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/seangandre/Downloads/files/src/main.cpp -o CMakeFiles/gltf_loader.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/seangandre/Documents/GitHub/Atlys/Native/files/src/main.cpp -o CMakeFiles/gltf_loader.dir/src/main.cpp.s
 
 CMakeFiles/gltf_loader.dir/src/shader.cpp.o: CMakeFiles/gltf_loader.dir/flags.make
-CMakeFiles/gltf_loader.dir/src/shader.cpp.o: /Users/seangandre/Downloads/files/src/shader.cpp
+CMakeFiles/gltf_loader.dir/src/shader.cpp.o: /Users/seangandre/Documents/GitHub/Atlys/Native/files/src/shader.cpp
 CMakeFiles/gltf_loader.dir/src/shader.cpp.o: CMakeFiles/gltf_loader.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/seangandre/Downloads/files/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/gltf_loader.dir/src/shader.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gltf_loader.dir/src/shader.cpp.o -MF CMakeFiles/gltf_loader.dir/src/shader.cpp.o.d -o CMakeFiles/gltf_loader.dir/src/shader.cpp.o -c /Users/seangandre/Downloads/files/src/shader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/seangandre/Documents/GitHub/Atlys/Native/files/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/gltf_loader.dir/src/shader.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gltf_loader.dir/src/shader.cpp.o -MF CMakeFiles/gltf_loader.dir/src/shader.cpp.o.d -o CMakeFiles/gltf_loader.dir/src/shader.cpp.o -c /Users/seangandre/Documents/GitHub/Atlys/Native/files/src/shader.cpp
 
 CMakeFiles/gltf_loader.dir/src/shader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/gltf_loader.dir/src/shader.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/seangandre/Downloads/files/src/shader.cpp > CMakeFiles/gltf_loader.dir/src/shader.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/seangandre/Documents/GitHub/Atlys/Native/files/src/shader.cpp > CMakeFiles/gltf_loader.dir/src/shader.cpp.i
 
 CMakeFiles/gltf_loader.dir/src/shader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/gltf_loader.dir/src/shader.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/seangandre/Downloads/files/src/shader.cpp -o CMakeFiles/gltf_loader.dir/src/shader.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/seangandre/Documents/GitHub/Atlys/Native/files/src/shader.cpp -o CMakeFiles/gltf_loader.dir/src/shader.cpp.s
 
 CMakeFiles/gltf_loader.dir/src/model.cpp.o: CMakeFiles/gltf_loader.dir/flags.make
-CMakeFiles/gltf_loader.dir/src/model.cpp.o: /Users/seangandre/Downloads/files/src/model.cpp
+CMakeFiles/gltf_loader.dir/src/model.cpp.o: /Users/seangandre/Documents/GitHub/Atlys/Native/files/src/model.cpp
 CMakeFiles/gltf_loader.dir/src/model.cpp.o: CMakeFiles/gltf_loader.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/seangandre/Downloads/files/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/gltf_loader.dir/src/model.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gltf_loader.dir/src/model.cpp.o -MF CMakeFiles/gltf_loader.dir/src/model.cpp.o.d -o CMakeFiles/gltf_loader.dir/src/model.cpp.o -c /Users/seangandre/Downloads/files/src/model.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/seangandre/Documents/GitHub/Atlys/Native/files/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/gltf_loader.dir/src/model.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gltf_loader.dir/src/model.cpp.o -MF CMakeFiles/gltf_loader.dir/src/model.cpp.o.d -o CMakeFiles/gltf_loader.dir/src/model.cpp.o -c /Users/seangandre/Documents/GitHub/Atlys/Native/files/src/model.cpp
 
 CMakeFiles/gltf_loader.dir/src/model.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/gltf_loader.dir/src/model.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/seangandre/Downloads/files/src/model.cpp > CMakeFiles/gltf_loader.dir/src/model.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/seangandre/Documents/GitHub/Atlys/Native/files/src/model.cpp > CMakeFiles/gltf_loader.dir/src/model.cpp.i
 
 CMakeFiles/gltf_loader.dir/src/model.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/gltf_loader.dir/src/model.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/seangandre/Downloads/files/src/model.cpp -o CMakeFiles/gltf_loader.dir/src/model.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/seangandre/Documents/GitHub/Atlys/Native/files/src/model.cpp -o CMakeFiles/gltf_loader.dir/src/model.cpp.s
 
 CMakeFiles/gltf_loader.dir/src/camera.cpp.o: CMakeFiles/gltf_loader.dir/flags.make
-CMakeFiles/gltf_loader.dir/src/camera.cpp.o: /Users/seangandre/Downloads/files/src/camera.cpp
+CMakeFiles/gltf_loader.dir/src/camera.cpp.o: /Users/seangandre/Documents/GitHub/Atlys/Native/files/src/camera.cpp
 CMakeFiles/gltf_loader.dir/src/camera.cpp.o: CMakeFiles/gltf_loader.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/seangandre/Downloads/files/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/gltf_loader.dir/src/camera.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gltf_loader.dir/src/camera.cpp.o -MF CMakeFiles/gltf_loader.dir/src/camera.cpp.o.d -o CMakeFiles/gltf_loader.dir/src/camera.cpp.o -c /Users/seangandre/Downloads/files/src/camera.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/seangandre/Documents/GitHub/Atlys/Native/files/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/gltf_loader.dir/src/camera.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gltf_loader.dir/src/camera.cpp.o -MF CMakeFiles/gltf_loader.dir/src/camera.cpp.o.d -o CMakeFiles/gltf_loader.dir/src/camera.cpp.o -c /Users/seangandre/Documents/GitHub/Atlys/Native/files/src/camera.cpp
 
 CMakeFiles/gltf_loader.dir/src/camera.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/gltf_loader.dir/src/camera.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/seangandre/Downloads/files/src/camera.cpp > CMakeFiles/gltf_loader.dir/src/camera.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/seangandre/Documents/GitHub/Atlys/Native/files/src/camera.cpp > CMakeFiles/gltf_loader.dir/src/camera.cpp.i
 
 CMakeFiles/gltf_loader.dir/src/camera.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/gltf_loader.dir/src/camera.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/seangandre/Downloads/files/src/camera.cpp -o CMakeFiles/gltf_loader.dir/src/camera.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/seangandre/Documents/GitHub/Atlys/Native/files/src/camera.cpp -o CMakeFiles/gltf_loader.dir/src/camera.cpp.s
 
 # Object files for target gltf_loader
 gltf_loader_OBJECTS = \
@@ -138,23 +138,23 @@ gltf_loader_OBJECTS = \
 # External object files for target gltf_loader
 gltf_loader_EXTERNAL_OBJECTS =
 
-/Users/seangandre/Downloads/files/gltf_loader: CMakeFiles/gltf_loader.dir/src/main.cpp.o
-/Users/seangandre/Downloads/files/gltf_loader: CMakeFiles/gltf_loader.dir/src/shader.cpp.o
-/Users/seangandre/Downloads/files/gltf_loader: CMakeFiles/gltf_loader.dir/src/model.cpp.o
-/Users/seangandre/Downloads/files/gltf_loader: CMakeFiles/gltf_loader.dir/src/camera.cpp.o
-/Users/seangandre/Downloads/files/gltf_loader: CMakeFiles/gltf_loader.dir/build.make
-/Users/seangandre/Downloads/files/gltf_loader: _deps/glad-build/libglad.a
-/Users/seangandre/Downloads/files/gltf_loader: /opt/homebrew/lib/libglm.dylib
-/Users/seangandre/Downloads/files/gltf_loader: libtinyfiledialogs.a
-/Users/seangandre/Downloads/files/gltf_loader: libimgui.a
-/Users/seangandre/Downloads/files/gltf_loader: _deps/glad-build/libglad.a
-/Users/seangandre/Downloads/files/gltf_loader: /opt/homebrew/lib/libglfw.3.4.dylib
-/Users/seangandre/Downloads/files/gltf_loader: CMakeFiles/gltf_loader.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/seangandre/Downloads/files/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable /Users/seangandre/Downloads/files/gltf_loader"
+/Users/seangandre/Documents/GitHub/Atlys/Native/files/gltf_loader: CMakeFiles/gltf_loader.dir/src/main.cpp.o
+/Users/seangandre/Documents/GitHub/Atlys/Native/files/gltf_loader: CMakeFiles/gltf_loader.dir/src/shader.cpp.o
+/Users/seangandre/Documents/GitHub/Atlys/Native/files/gltf_loader: CMakeFiles/gltf_loader.dir/src/model.cpp.o
+/Users/seangandre/Documents/GitHub/Atlys/Native/files/gltf_loader: CMakeFiles/gltf_loader.dir/src/camera.cpp.o
+/Users/seangandre/Documents/GitHub/Atlys/Native/files/gltf_loader: CMakeFiles/gltf_loader.dir/build.make
+/Users/seangandre/Documents/GitHub/Atlys/Native/files/gltf_loader: _deps/glad-build/libglad.a
+/Users/seangandre/Documents/GitHub/Atlys/Native/files/gltf_loader: /opt/homebrew/lib/libglm.dylib
+/Users/seangandre/Documents/GitHub/Atlys/Native/files/gltf_loader: libtinyfiledialogs.a
+/Users/seangandre/Documents/GitHub/Atlys/Native/files/gltf_loader: libimgui.a
+/Users/seangandre/Documents/GitHub/Atlys/Native/files/gltf_loader: _deps/glad-build/libglad.a
+/Users/seangandre/Documents/GitHub/Atlys/Native/files/gltf_loader: /opt/homebrew/lib/libglfw.3.4.dylib
+/Users/seangandre/Documents/GitHub/Atlys/Native/files/gltf_loader: CMakeFiles/gltf_loader.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/seangandre/Documents/GitHub/Atlys/Native/files/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable /Users/seangandre/Documents/GitHub/Atlys/Native/files/gltf_loader"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gltf_loader.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/gltf_loader.dir/build: /Users/seangandre/Downloads/files/gltf_loader
+CMakeFiles/gltf_loader.dir/build: /Users/seangandre/Documents/GitHub/Atlys/Native/files/gltf_loader
 .PHONY : CMakeFiles/gltf_loader.dir/build
 
 CMakeFiles/gltf_loader.dir/clean:
@@ -162,6 +162,6 @@ CMakeFiles/gltf_loader.dir/clean:
 .PHONY : CMakeFiles/gltf_loader.dir/clean
 
 CMakeFiles/gltf_loader.dir/depend:
-	cd /Users/seangandre/Downloads/files/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/seangandre/Downloads/files /Users/seangandre/Downloads/files /Users/seangandre/Downloads/files/build /Users/seangandre/Downloads/files/build /Users/seangandre/Downloads/files/build/CMakeFiles/gltf_loader.dir/DependInfo.cmake "--color=$(COLOR)" gltf_loader
+	cd /Users/seangandre/Documents/GitHub/Atlys/Native/files/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/seangandre/Documents/GitHub/Atlys/Native/files /Users/seangandre/Documents/GitHub/Atlys/Native/files /Users/seangandre/Documents/GitHub/Atlys/Native/files/build /Users/seangandre/Documents/GitHub/Atlys/Native/files/build /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/CMakeFiles/gltf_loader.dir/DependInfo.cmake "--color=$(COLOR)" gltf_loader
 .PHONY : CMakeFiles/gltf_loader.dir/depend
 

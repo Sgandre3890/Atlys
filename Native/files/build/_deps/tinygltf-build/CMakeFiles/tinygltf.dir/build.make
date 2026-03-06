@@ -53,10 +53,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/seangandre/Downloads/files
+CMAKE_SOURCE_DIR = /Users/seangandre/Documents/GitHub/Atlys/Native/files
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/seangandre/Downloads/files/build
+CMAKE_BINARY_DIR = /Users/seangandre/Documents/GitHub/Atlys/Native/files/build
 
 # Include any dependencies generated for this target.
 include _deps/tinygltf-build/CMakeFiles/tinygltf.dir/depend.make
@@ -75,16 +75,16 @@ _deps/tinygltf-build/CMakeFiles/tinygltf.dir/codegen:
 _deps/tinygltf-build/CMakeFiles/tinygltf.dir/tiny_gltf.cc.o: _deps/tinygltf-build/CMakeFiles/tinygltf.dir/flags.make
 _deps/tinygltf-build/CMakeFiles/tinygltf.dir/tiny_gltf.cc.o: _deps/tinygltf-src/tiny_gltf.cc
 _deps/tinygltf-build/CMakeFiles/tinygltf.dir/tiny_gltf.cc.o: _deps/tinygltf-build/CMakeFiles/tinygltf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/seangandre/Downloads/files/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object _deps/tinygltf-build/CMakeFiles/tinygltf.dir/tiny_gltf.cc.o"
-	cd /Users/seangandre/Downloads/files/build/_deps/tinygltf-build && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/tinygltf-build/CMakeFiles/tinygltf.dir/tiny_gltf.cc.o -MF CMakeFiles/tinygltf.dir/tiny_gltf.cc.o.d -o CMakeFiles/tinygltf.dir/tiny_gltf.cc.o -c /Users/seangandre/Downloads/files/build/_deps/tinygltf-src/tiny_gltf.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/seangandre/Documents/GitHub/Atlys/Native/files/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object _deps/tinygltf-build/CMakeFiles/tinygltf.dir/tiny_gltf.cc.o"
+	cd /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinygltf-build && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/tinygltf-build/CMakeFiles/tinygltf.dir/tiny_gltf.cc.o -MF CMakeFiles/tinygltf.dir/tiny_gltf.cc.o.d -o CMakeFiles/tinygltf.dir/tiny_gltf.cc.o -c /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinygltf-src/tiny_gltf.cc
 
 _deps/tinygltf-build/CMakeFiles/tinygltf.dir/tiny_gltf.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tinygltf.dir/tiny_gltf.cc.i"
-	cd /Users/seangandre/Downloads/files/build/_deps/tinygltf-build && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/seangandre/Downloads/files/build/_deps/tinygltf-src/tiny_gltf.cc > CMakeFiles/tinygltf.dir/tiny_gltf.cc.i
+	cd /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinygltf-build && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinygltf-src/tiny_gltf.cc > CMakeFiles/tinygltf.dir/tiny_gltf.cc.i
 
 _deps/tinygltf-build/CMakeFiles/tinygltf.dir/tiny_gltf.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tinygltf.dir/tiny_gltf.cc.s"
-	cd /Users/seangandre/Downloads/files/build/_deps/tinygltf-build && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/seangandre/Downloads/files/build/_deps/tinygltf-src/tiny_gltf.cc -o CMakeFiles/tinygltf.dir/tiny_gltf.cc.s
+	cd /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinygltf-build && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinygltf-src/tiny_gltf.cc -o CMakeFiles/tinygltf.dir/tiny_gltf.cc.s
 
 # Object files for target tinygltf
 tinygltf_OBJECTS = \
@@ -96,19 +96,19 @@ tinygltf_EXTERNAL_OBJECTS =
 _deps/tinygltf-build/libtinygltf.a: _deps/tinygltf-build/CMakeFiles/tinygltf.dir/tiny_gltf.cc.o
 _deps/tinygltf-build/libtinygltf.a: _deps/tinygltf-build/CMakeFiles/tinygltf.dir/build.make
 _deps/tinygltf-build/libtinygltf.a: _deps/tinygltf-build/CMakeFiles/tinygltf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/seangandre/Downloads/files/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libtinygltf.a"
-	cd /Users/seangandre/Downloads/files/build/_deps/tinygltf-build && $(CMAKE_COMMAND) -P CMakeFiles/tinygltf.dir/cmake_clean_target.cmake
-	cd /Users/seangandre/Downloads/files/build/_deps/tinygltf-build && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tinygltf.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/seangandre/Documents/GitHub/Atlys/Native/files/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libtinygltf.a"
+	cd /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinygltf-build && $(CMAKE_COMMAND) -P CMakeFiles/tinygltf.dir/cmake_clean_target.cmake
+	cd /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinygltf-build && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tinygltf.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 _deps/tinygltf-build/CMakeFiles/tinygltf.dir/build: _deps/tinygltf-build/libtinygltf.a
 .PHONY : _deps/tinygltf-build/CMakeFiles/tinygltf.dir/build
 
 _deps/tinygltf-build/CMakeFiles/tinygltf.dir/clean:
-	cd /Users/seangandre/Downloads/files/build/_deps/tinygltf-build && $(CMAKE_COMMAND) -P CMakeFiles/tinygltf.dir/cmake_clean.cmake
+	cd /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinygltf-build && $(CMAKE_COMMAND) -P CMakeFiles/tinygltf.dir/cmake_clean.cmake
 .PHONY : _deps/tinygltf-build/CMakeFiles/tinygltf.dir/clean
 
 _deps/tinygltf-build/CMakeFiles/tinygltf.dir/depend:
-	cd /Users/seangandre/Downloads/files/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/seangandre/Downloads/files /Users/seangandre/Downloads/files/build/_deps/tinygltf-src /Users/seangandre/Downloads/files/build /Users/seangandre/Downloads/files/build/_deps/tinygltf-build /Users/seangandre/Downloads/files/build/_deps/tinygltf-build/CMakeFiles/tinygltf.dir/DependInfo.cmake "--color=$(COLOR)" tinygltf
+	cd /Users/seangandre/Documents/GitHub/Atlys/Native/files/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/seangandre/Documents/GitHub/Atlys/Native/files /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinygltf-src /Users/seangandre/Documents/GitHub/Atlys/Native/files/build /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinygltf-build /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinygltf-build/CMakeFiles/tinygltf.dir/DependInfo.cmake "--color=$(COLOR)" tinygltf
 .PHONY : _deps/tinygltf-build/CMakeFiles/tinygltf.dir/depend
 

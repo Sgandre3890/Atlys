@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/seangandre/Downloads/files/build/_deps/tinygltf-src/tiny_gltf.cc" "_deps/tinygltf-build/CMakeFiles/tinygltf.dir/tiny_gltf.cc.o" "gcc" "_deps/tinygltf-build/CMakeFiles/tinygltf.dir/tiny_gltf.cc.o.d"
+  "/Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinygltf-src/tiny_gltf.cc" "_deps/tinygltf-build/CMakeFiles/tinygltf.dir/tiny_gltf.cc.o" "gcc" "_deps/tinygltf-build/CMakeFiles/tinygltf.dir/tiny_gltf.cc.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

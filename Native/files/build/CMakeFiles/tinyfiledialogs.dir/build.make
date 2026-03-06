@@ -53,10 +53,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/seangandre/Downloads/files
+CMAKE_SOURCE_DIR = /Users/seangandre/Documents/GitHub/Atlys/Native/files
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/seangandre/Downloads/files/build
+CMAKE_BINARY_DIR = /Users/seangandre/Documents/GitHub/Atlys/Native/files/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/tinyfiledialogs.dir/depend.make
@@ -75,16 +75,16 @@ CMakeFiles/tinyfiledialogs.dir/codegen:
 CMakeFiles/tinyfiledialogs.dir/_deps/tinyfiledialogs-src/tinyfiledialogs.c.o: CMakeFiles/tinyfiledialogs.dir/flags.make
 CMakeFiles/tinyfiledialogs.dir/_deps/tinyfiledialogs-src/tinyfiledialogs.c.o: _deps/tinyfiledialogs-src/tinyfiledialogs.c
 CMakeFiles/tinyfiledialogs.dir/_deps/tinyfiledialogs-src/tinyfiledialogs.c.o: CMakeFiles/tinyfiledialogs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/seangandre/Downloads/files/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/tinyfiledialogs.dir/_deps/tinyfiledialogs-src/tinyfiledialogs.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/tinyfiledialogs.dir/_deps/tinyfiledialogs-src/tinyfiledialogs.c.o -MF CMakeFiles/tinyfiledialogs.dir/_deps/tinyfiledialogs-src/tinyfiledialogs.c.o.d -o CMakeFiles/tinyfiledialogs.dir/_deps/tinyfiledialogs-src/tinyfiledialogs.c.o -c /Users/seangandre/Downloads/files/build/_deps/tinyfiledialogs-src/tinyfiledialogs.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/seangandre/Documents/GitHub/Atlys/Native/files/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/tinyfiledialogs.dir/_deps/tinyfiledialogs-src/tinyfiledialogs.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/tinyfiledialogs.dir/_deps/tinyfiledialogs-src/tinyfiledialogs.c.o -MF CMakeFiles/tinyfiledialogs.dir/_deps/tinyfiledialogs-src/tinyfiledialogs.c.o.d -o CMakeFiles/tinyfiledialogs.dir/_deps/tinyfiledialogs-src/tinyfiledialogs.c.o -c /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinyfiledialogs-src/tinyfiledialogs.c
 
 CMakeFiles/tinyfiledialogs.dir/_deps/tinyfiledialogs-src/tinyfiledialogs.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/tinyfiledialogs.dir/_deps/tinyfiledialogs-src/tinyfiledialogs.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/seangandre/Downloads/files/build/_deps/tinyfiledialogs-src/tinyfiledialogs.c > CMakeFiles/tinyfiledialogs.dir/_deps/tinyfiledialogs-src/tinyfiledialogs.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinyfiledialogs-src/tinyfiledialogs.c > CMakeFiles/tinyfiledialogs.dir/_deps/tinyfiledialogs-src/tinyfiledialogs.c.i
 
 CMakeFiles/tinyfiledialogs.dir/_deps/tinyfiledialogs-src/tinyfiledialogs.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/tinyfiledialogs.dir/_deps/tinyfiledialogs-src/tinyfiledialogs.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/seangandre/Downloads/files/build/_deps/tinyfiledialogs-src/tinyfiledialogs.c -o CMakeFiles/tinyfiledialogs.dir/_deps/tinyfiledialogs-src/tinyfiledialogs.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinyfiledialogs-src/tinyfiledialogs.c -o CMakeFiles/tinyfiledialogs.dir/_deps/tinyfiledialogs-src/tinyfiledialogs.c.s
 
 # Object files for target tinyfiledialogs
 tinyfiledialogs_OBJECTS = \
@@ -96,7 +96,7 @@ tinyfiledialogs_EXTERNAL_OBJECTS =
 libtinyfiledialogs.a: CMakeFiles/tinyfiledialogs.dir/_deps/tinyfiledialogs-src/tinyfiledialogs.c.o
 libtinyfiledialogs.a: CMakeFiles/tinyfiledialogs.dir/build.make
 libtinyfiledialogs.a: CMakeFiles/tinyfiledialogs.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/seangandre/Downloads/files/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libtinyfiledialogs.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/seangandre/Documents/GitHub/Atlys/Native/files/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libtinyfiledialogs.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/tinyfiledialogs.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tinyfiledialogs.dir/link.txt --verbose=$(VERBOSE)
 
@@ -109,6 +109,6 @@ CMakeFiles/tinyfiledialogs.dir/clean:
 .PHONY : CMakeFiles/tinyfiledialogs.dir/clean
 
 CMakeFiles/tinyfiledialogs.dir/depend:
-	cd /Users/seangandre/Downloads/files/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/seangandre/Downloads/files /Users/seangandre/Downloads/files /Users/seangandre/Downloads/files/build /Users/seangandre/Downloads/files/build /Users/seangandre/Downloads/files/build/CMakeFiles/tinyfiledialogs.dir/DependInfo.cmake "--color=$(COLOR)" tinyfiledialogs
+	cd /Users/seangandre/Documents/GitHub/Atlys/Native/files/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/seangandre/Documents/GitHub/Atlys/Native/files /Users/seangandre/Documents/GitHub/Atlys/Native/files /Users/seangandre/Documents/GitHub/Atlys/Native/files/build /Users/seangandre/Documents/GitHub/Atlys/Native/files/build /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/CMakeFiles/tinyfiledialogs.dir/DependInfo.cmake "--color=$(COLOR)" tinyfiledialogs
 .PHONY : CMakeFiles/tinyfiledialogs.dir/depend
 

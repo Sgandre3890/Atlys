@@ -1,8 +1,8 @@
 [
 {
-  "directory": "/Users/seangandre/Downloads/files/build/_deps/tinygltf-build",
-  "command": "/usr/bin/c++   -O3 -DNDEBUG -std=c++11 -arch arm64 -o CMakeFiles/tinygltf.dir/tiny_gltf.cc.o -c /Users/seangandre/Downloads/files/build/_deps/tinygltf-src/tiny_gltf.cc",
-  "file": "/Users/seangandre/Downloads/files/build/_deps/tinygltf-src/tiny_gltf.cc",
+  "directory": "/Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinygltf-build",
+  "command": "/usr/bin/c++   -O3 -DNDEBUG -std=c++11 -arch arm64 -o CMakeFiles/tinygltf.dir/tiny_gltf.cc.o -c /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinygltf-src/tiny_gltf.cc",
+  "file": "/Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinygltf-src/tiny_gltf.cc",
   "output": "_deps/tinygltf-build/CMakeFiles/tinygltf.dir/tiny_gltf.cc.o"
 }
 ]

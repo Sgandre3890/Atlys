@@ -1,7 +1,7 @@
 CMakeFiles/gltf_loader.dir/src/main.cpp.o: \
-  /Users/seangandre/Downloads/files/src/main.cpp \
-  /Users/seangandre/Downloads/files/build/_deps/glad-build/include/glad/glad.h \
-  /Users/seangandre/Downloads/files/build/_deps/glad-build/include/KHR/khrplatform.h \
+  /Users/seangandre/Documents/GitHub/Atlys/Native/files/src/main.cpp \
+  /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/glad-build/include/glad/glad.h \
+  /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/glad-build/include/KHR/khrplatform.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/stdint.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config_site \
@@ -998,15 +998,15 @@ CMakeFiles/gltf_loader.dir/src/main.cpp.o: \
   /opt/homebrew/include/glm/gtc/../geometric.hpp \
   /opt/homebrew/include/glm/gtc/../trigonometric.hpp \
   /opt/homebrew/include/glm/gtc/../matrix.hpp \
-  /Users/seangandre/Downloads/files/build/_deps/tinyfiledialogs-src/tinyfiledialogs.h \
-  /Users/seangandre/Downloads/files/build/_deps/imgui-src/imgui.h \
-  /Users/seangandre/Downloads/files/build/_deps/imgui-src/imconfig.h \
-  /Users/seangandre/Downloads/files/build/_deps/imgui-src/backends/imgui_impl_glfw.h \
-  /Users/seangandre/Downloads/files/build/_deps/imgui-src/backends/imgui_impl_opengl3.h \
+  /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinyfiledialogs-src/tinyfiledialogs.h \
+  /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/imgui-src/imgui.h \
+  /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/imgui-src/imconfig.h \
+  /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/imgui-src/backends/imgui_impl_glfw.h \
+  /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/imgui-src/backends/imgui_impl_opengl3.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/TargetConditionals.h \
-  /Users/seangandre/Downloads/files/include/shader.h \
-  /Users/seangandre/Downloads/files/include/model.h \
-  /Users/seangandre/Downloads/files/include/camera.h \
+  /Users/seangandre/Documents/GitHub/Atlys/Native/files/include/shader.h \
+  /Users/seangandre/Documents/GitHub/Atlys/Native/files/include/model.h \
+  /Users/seangandre/Documents/GitHub/Atlys/Native/files/include/camera.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/istream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__ostream/basic_ostream.h \

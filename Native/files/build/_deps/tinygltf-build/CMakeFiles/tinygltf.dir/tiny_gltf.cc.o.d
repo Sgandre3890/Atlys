@@ -1,6 +1,6 @@
 _deps/tinygltf-build/CMakeFiles/tinygltf.dir/tiny_gltf.cc.o: \
-  /Users/seangandre/Downloads/files/build/_deps/tinygltf-src/tiny_gltf.cc \
-  /Users/seangandre/Downloads/files/build/_deps/tinygltf-src/tiny_gltf.h \
+  /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinygltf-src/tiny_gltf.cc \
+  /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinygltf-src/tiny_gltf.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/array \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/equal.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/comp.h \
@@ -790,7 +790,7 @@ _deps/tinygltf-build/CMakeFiles/tinygltf.dir/tiny_gltf.cc.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/unistd.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/filesystem \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/sstream \
-  /Users/seangandre/Downloads/files/build/_deps/tinygltf-src/json.hpp \
+  /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinygltf-src/json.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/numeric \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/accumulate.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/adjacent_difference.h \
@@ -800,6 +800,6 @@ _deps/tinygltf-build/CMakeFiles/tinygltf.dir/tiny_gltf.cc.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_execution_policy.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/forward_list \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/valarray \
-  /Users/seangandre/Downloads/files/build/_deps/tinygltf-src/stb_image.h \
-  /Users/seangandre/Downloads/files/build/_deps/tinygltf-src/stb_image_write.h \
+  /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinygltf-src/stb_image.h \
+  /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinygltf-src/stb_image_write.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/TargetConditionals.h

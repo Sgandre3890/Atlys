@@ -57,10 +57,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/seangandre/Downloads/files
+CMAKE_SOURCE_DIR = /Users/seangandre/Documents/GitHub/Atlys/Native/files
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/seangandre/Downloads/files/build
+CMAKE_BINARY_DIR = /Users/seangandre/Documents/GitHub/Atlys/Native/files/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/seangandre/Downloads/files/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/seangandre/Downloads/files/build/CMakeFiles /Users/seangandre/Downloads/files/build/_deps/tinygltf-build//CMakeFiles/progress.marks
-	cd /Users/seangandre/Downloads/files/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/tinygltf-build/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/seangandre/Downloads/files/build/CMakeFiles 0
+	cd /Users/seangandre/Documents/GitHub/Atlys/Native/files/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/CMakeFiles /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinygltf-build//CMakeFiles/progress.marks
+	cd /Users/seangandre/Documents/GitHub/Atlys/Native/files/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/tinygltf-build/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/seangandre/Downloads/files/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/tinygltf-build/clean
+	cd /Users/seangandre/Documents/GitHub/Atlys/Native/files/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/tinygltf-build/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/seangandre/Downloads/files/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/tinygltf-build/preinstall
+	cd /Users/seangandre/Documents/GitHub/Atlys/Native/files/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/tinygltf-build/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/seangandre/Downloads/files/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/tinygltf-build/preinstall
+	cd /Users/seangandre/Documents/GitHub/Atlys/Native/files/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/tinygltf-build/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/seangandre/Downloads/files/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/seangandre/Documents/GitHub/Atlys/Native/files/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 _deps/tinygltf-build/CMakeFiles/tinygltf.dir/rule:
-	cd /Users/seangandre/Downloads/files/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/tinygltf-build/CMakeFiles/tinygltf.dir/rule
+	cd /Users/seangandre/Documents/GitHub/Atlys/Native/files/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/tinygltf-build/CMakeFiles/tinygltf.dir/rule
 .PHONY : _deps/tinygltf-build/CMakeFiles/tinygltf.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ tinygltf: _deps/tinygltf-build/CMakeFiles/tinygltf.dir/rule
 
 # fast build rule for target.
 tinygltf/fast:
-	cd /Users/seangandre/Downloads/files/build && $(MAKE) $(MAKESILENT) -f _deps/tinygltf-build/CMakeFiles/tinygltf.dir/build.make _deps/tinygltf-build/CMakeFiles/tinygltf.dir/build
+	cd /Users/seangandre/Documents/GitHub/Atlys/Native/files/build && $(MAKE) $(MAKESILENT) -f _deps/tinygltf-build/CMakeFiles/tinygltf.dir/build.make _deps/tinygltf-build/CMakeFiles/tinygltf.dir/build
 .PHONY : tinygltf/fast
 
 tiny_gltf.o: tiny_gltf.cc.o
@@ -135,7 +135,7 @@ tiny_gltf.o: tiny_gltf.cc.o
 
 # target to build an object file
 tiny_gltf.cc.o:
-	cd /Users/seangandre/Downloads/files/build && $(MAKE) $(MAKESILENT) -f _deps/tinygltf-build/CMakeFiles/tinygltf.dir/build.make _deps/tinygltf-build/CMakeFiles/tinygltf.dir/tiny_gltf.cc.o
+	cd /Users/seangandre/Documents/GitHub/Atlys/Native/files/build && $(MAKE) $(MAKESILENT) -f _deps/tinygltf-build/CMakeFiles/tinygltf.dir/build.make _deps/tinygltf-build/CMakeFiles/tinygltf.dir/tiny_gltf.cc.o
 .PHONY : tiny_gltf.cc.o
 
 tiny_gltf.i: tiny_gltf.cc.i
@@ -143,7 +143,7 @@ tiny_gltf.i: tiny_gltf.cc.i
 
 # target to preprocess a source file
 tiny_gltf.cc.i:
-	cd /Users/seangandre/Downloads/files/build && $(MAKE) $(MAKESILENT) -f _deps/tinygltf-build/CMakeFiles/tinygltf.dir/build.make _deps/tinygltf-build/CMakeFiles/tinygltf.dir/tiny_gltf.cc.i
+	cd /Users/seangandre/Documents/GitHub/Atlys/Native/files/build && $(MAKE) $(MAKESILENT) -f _deps/tinygltf-build/CMakeFiles/tinygltf.dir/build.make _deps/tinygltf-build/CMakeFiles/tinygltf.dir/tiny_gltf.cc.i
 .PHONY : tiny_gltf.cc.i
 
 tiny_gltf.s: tiny_gltf.cc.s
@@ -151,7 +151,7 @@ tiny_gltf.s: tiny_gltf.cc.s
 
 # target to generate assembly for a file
 tiny_gltf.cc.s:
-	cd /Users/seangandre/Downloads/files/build && $(MAKE) $(MAKESILENT) -f _deps/tinygltf-build/CMakeFiles/tinygltf.dir/build.make _deps/tinygltf-build/CMakeFiles/tinygltf.dir/tiny_gltf.cc.s
+	cd /Users/seangandre/Documents/GitHub/Atlys/Native/files/build && $(MAKE) $(MAKESILENT) -f _deps/tinygltf-build/CMakeFiles/tinygltf.dir/build.make _deps/tinygltf-build/CMakeFiles/tinygltf.dir/tiny_gltf.cc.s
 .PHONY : tiny_gltf.cc.s
 
 # Help Target
@@ -177,6 +177,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/seangandre/Downloads/files/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/seangandre/Documents/GitHub/Atlys/Native/files/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

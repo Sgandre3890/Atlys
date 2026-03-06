@@ -28,8 +28,8 @@ set_property(GLOBAL PROPERTY _CMAKE_FindGit_GIT_EXECUTABLE_VERSION
 include(ExternalProject)
 ExternalProject_Add(tinygltf-populate
                      "UPDATE_DISCONNECTED" "False" "GIT_REPOSITORY" "https://github.com/syoyo/tinygltf.git" "EXTERNALPROJECT_INTERNAL_ARGUMENT_SEPARATOR" "GIT_TAG" "v2.8.21"
-                    SOURCE_DIR          "/Users/seangandre/Downloads/files/build/_deps/tinygltf-src"
-                    BINARY_DIR          "/Users/seangandre/Downloads/files/build/_deps/tinygltf-build"
+                    SOURCE_DIR          "/Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinygltf-src"
+                    BINARY_DIR          "/Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinygltf-build"
                     CONFIGURE_COMMAND   ""
                     BUILD_COMMAND       ""
                     INSTALL_COMMAND     ""

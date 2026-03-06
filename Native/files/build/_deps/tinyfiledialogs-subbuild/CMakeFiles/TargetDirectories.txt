@@ -1,3 +1,3 @@
-/Users/seangandre/Downloads/files/build/_deps/tinyfiledialogs-subbuild/CMakeFiles/tinyfiledialogs-populate.dir
-/Users/seangandre/Downloads/files/build/_deps/tinyfiledialogs-subbuild/CMakeFiles/edit_cache.dir
-/Users/seangandre/Downloads/files/build/_deps/tinyfiledialogs-subbuild/CMakeFiles/rebuild_cache.dir
+/Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinyfiledialogs-subbuild/CMakeFiles/tinyfiledialogs-populate.dir
+/Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinyfiledialogs-subbuild/CMakeFiles/edit_cache.dir
+/Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinyfiledialogs-subbuild/CMakeFiles/rebuild_cache.dir

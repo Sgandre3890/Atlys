@@ -3,9 +3,9 @@
 # No other meaning or use of this file is supported.
 
 method=git
-command=/opt/homebrew/bin/cmake;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;/Users/seangandre/Downloads/files/build/_deps/tinygltf-subbuild/tinygltf-populate-prefix/tmp/tinygltf-populate-gitclone.cmake
-source_dir=/Users/seangandre/Downloads/files/build/_deps/tinygltf-src
-work_dir=/Users/seangandre/Downloads/files/build/_deps
+command=/opt/homebrew/bin/cmake;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;/Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinygltf-subbuild/tinygltf-populate-prefix/tmp/tinygltf-populate-gitclone.cmake
+source_dir=/Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinygltf-src
+work_dir=/Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps
 repository=https://github.com/syoyo/tinygltf.git
 remote=origin
 init_submodules=TRUE

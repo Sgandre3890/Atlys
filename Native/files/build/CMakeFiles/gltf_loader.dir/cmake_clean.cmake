@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/seangandre/Downloads/files/gltf_loader"
-  "/Users/seangandre/Downloads/files/gltf_loader.pdb"
+  "/Users/seangandre/Documents/GitHub/Atlys/Native/files/gltf_loader"
+  "/Users/seangandre/Documents/GitHub/Atlys/Native/files/gltf_loader.pdb"
   "CMakeFiles/gltf_loader.dir/src/camera.cpp.o"
   "CMakeFiles/gltf_loader.dir/src/camera.cpp.o.d"
   "CMakeFiles/gltf_loader.dir/src/main.cpp.o"

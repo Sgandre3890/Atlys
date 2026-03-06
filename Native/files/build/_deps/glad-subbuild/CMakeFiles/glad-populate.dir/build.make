@@ -53,10 +53,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/seangandre/Downloads/files/build/_deps/glad-subbuild
+CMAKE_SOURCE_DIR = /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/glad-subbuild
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/seangandre/Downloads/files/build/_deps/glad-subbuild
+CMAKE_BINARY_DIR = /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/glad-subbuild
 
 # Utility rule file for glad-populate.
 
@@ -77,60 +77,60 @@ CMakeFiles/glad-populate-complete: glad-populate-prefix/src/glad-populate-stamp/
 CMakeFiles/glad-populate-complete: glad-populate-prefix/src/glad-populate-stamp/glad-populate-build
 CMakeFiles/glad-populate-complete: glad-populate-prefix/src/glad-populate-stamp/glad-populate-install
 CMakeFiles/glad-populate-complete: glad-populate-prefix/src/glad-populate-stamp/glad-populate-test
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/seangandre/Downloads/files/build/_deps/glad-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'glad-populate'"
-	/opt/homebrew/bin/cmake -E make_directory /Users/seangandre/Downloads/files/build/_deps/glad-subbuild/CMakeFiles
-	/opt/homebrew/bin/cmake -E touch /Users/seangandre/Downloads/files/build/_deps/glad-subbuild/CMakeFiles/glad-populate-complete
-	/opt/homebrew/bin/cmake -E touch /Users/seangandre/Downloads/files/build/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/glad-populate-done
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/glad-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'glad-populate'"
+	/opt/homebrew/bin/cmake -E make_directory /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/glad-subbuild/CMakeFiles
+	/opt/homebrew/bin/cmake -E touch /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/glad-subbuild/CMakeFiles/glad-populate-complete
+	/opt/homebrew/bin/cmake -E touch /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/glad-populate-done
 
 glad-populate-prefix/src/glad-populate-stamp/glad-populate-update:
 .PHONY : glad-populate-prefix/src/glad-populate-stamp/glad-populate-update
 
 glad-populate-prefix/src/glad-populate-stamp/glad-populate-build: glad-populate-prefix/src/glad-populate-stamp/glad-populate-configure
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/seangandre/Downloads/files/build/_deps/glad-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "No build step for 'glad-populate'"
-	cd /Users/seangandre/Downloads/files/build/_deps/glad-build && /opt/homebrew/bin/cmake -E echo_append
-	cd /Users/seangandre/Downloads/files/build/_deps/glad-build && /opt/homebrew/bin/cmake -E touch /Users/seangandre/Downloads/files/build/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/glad-populate-build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/glad-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "No build step for 'glad-populate'"
+	cd /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/glad-build && /opt/homebrew/bin/cmake -E echo_append
+	cd /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/glad-build && /opt/homebrew/bin/cmake -E touch /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/glad-populate-build
 
 glad-populate-prefix/src/glad-populate-stamp/glad-populate-configure: glad-populate-prefix/tmp/glad-populate-cfgcmd.txt
 glad-populate-prefix/src/glad-populate-stamp/glad-populate-configure: glad-populate-prefix/src/glad-populate-stamp/glad-populate-patch
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/seangandre/Downloads/files/build/_deps/glad-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "No configure step for 'glad-populate'"
-	cd /Users/seangandre/Downloads/files/build/_deps/glad-build && /opt/homebrew/bin/cmake -E echo_append
-	cd /Users/seangandre/Downloads/files/build/_deps/glad-build && /opt/homebrew/bin/cmake -E touch /Users/seangandre/Downloads/files/build/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/glad-populate-configure
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/glad-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "No configure step for 'glad-populate'"
+	cd /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/glad-build && /opt/homebrew/bin/cmake -E echo_append
+	cd /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/glad-build && /opt/homebrew/bin/cmake -E touch /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/glad-populate-configure
 
 glad-populate-prefix/src/glad-populate-stamp/glad-populate-download: glad-populate-prefix/src/glad-populate-stamp/glad-populate-gitinfo.txt
 glad-populate-prefix/src/glad-populate-stamp/glad-populate-download: glad-populate-prefix/src/glad-populate-stamp/glad-populate-mkdir
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/seangandre/Downloads/files/build/_deps/glad-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Performing download step (git clone) for 'glad-populate'"
-	cd /Users/seangandre/Downloads/files/build/_deps && /opt/homebrew/bin/cmake -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P /Users/seangandre/Downloads/files/build/_deps/glad-subbuild/glad-populate-prefix/tmp/glad-populate-gitclone.cmake
-	cd /Users/seangandre/Downloads/files/build/_deps && /opt/homebrew/bin/cmake -E touch /Users/seangandre/Downloads/files/build/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/glad-populate-download
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/glad-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Performing download step (git clone) for 'glad-populate'"
+	cd /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps && /opt/homebrew/bin/cmake -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/glad-subbuild/glad-populate-prefix/tmp/glad-populate-gitclone.cmake
+	cd /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps && /opt/homebrew/bin/cmake -E touch /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/glad-populate-download
 
 glad-populate-prefix/src/glad-populate-stamp/glad-populate-install: glad-populate-prefix/src/glad-populate-stamp/glad-populate-build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/seangandre/Downloads/files/build/_deps/glad-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No install step for 'glad-populate'"
-	cd /Users/seangandre/Downloads/files/build/_deps/glad-build && /opt/homebrew/bin/cmake -E echo_append
-	cd /Users/seangandre/Downloads/files/build/_deps/glad-build && /opt/homebrew/bin/cmake -E touch /Users/seangandre/Downloads/files/build/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/glad-populate-install
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/glad-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No install step for 'glad-populate'"
+	cd /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/glad-build && /opt/homebrew/bin/cmake -E echo_append
+	cd /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/glad-build && /opt/homebrew/bin/cmake -E touch /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/glad-populate-install
 
 glad-populate-prefix/src/glad-populate-stamp/glad-populate-mkdir:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/seangandre/Downloads/files/build/_deps/glad-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'glad-populate'"
-	/opt/homebrew/bin/cmake -Dcfgdir= -P /Users/seangandre/Downloads/files/build/_deps/glad-subbuild/glad-populate-prefix/tmp/glad-populate-mkdirs.cmake
-	/opt/homebrew/bin/cmake -E touch /Users/seangandre/Downloads/files/build/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/glad-populate-mkdir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/glad-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'glad-populate'"
+	/opt/homebrew/bin/cmake -Dcfgdir= -P /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/glad-subbuild/glad-populate-prefix/tmp/glad-populate-mkdirs.cmake
+	/opt/homebrew/bin/cmake -E touch /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/glad-populate-mkdir
 
 glad-populate-prefix/src/glad-populate-stamp/glad-populate-patch: glad-populate-prefix/src/glad-populate-stamp/glad-populate-patch-info.txt
 glad-populate-prefix/src/glad-populate-stamp/glad-populate-patch: glad-populate-prefix/src/glad-populate-stamp/glad-populate-update
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/seangandre/Downloads/files/build/_deps/glad-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'glad-populate'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/glad-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'glad-populate'"
 	/opt/homebrew/bin/cmake -E echo_append
-	/opt/homebrew/bin/cmake -E touch /Users/seangandre/Downloads/files/build/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/glad-populate-patch
+	/opt/homebrew/bin/cmake -E touch /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/glad-populate-patch
 
 glad-populate-prefix/src/glad-populate-stamp/glad-populate-update:
 .PHONY : glad-populate-prefix/src/glad-populate-stamp/glad-populate-update
 
 glad-populate-prefix/src/glad-populate-stamp/glad-populate-test: glad-populate-prefix/src/glad-populate-stamp/glad-populate-install
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/seangandre/Downloads/files/build/_deps/glad-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No test step for 'glad-populate'"
-	cd /Users/seangandre/Downloads/files/build/_deps/glad-build && /opt/homebrew/bin/cmake -E echo_append
-	cd /Users/seangandre/Downloads/files/build/_deps/glad-build && /opt/homebrew/bin/cmake -E touch /Users/seangandre/Downloads/files/build/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/glad-populate-test
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/glad-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No test step for 'glad-populate'"
+	cd /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/glad-build && /opt/homebrew/bin/cmake -E echo_append
+	cd /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/glad-build && /opt/homebrew/bin/cmake -E touch /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/glad-populate-test
 
 glad-populate-prefix/src/glad-populate-stamp/glad-populate-update: glad-populate-prefix/tmp/glad-populate-gitupdate.cmake
 glad-populate-prefix/src/glad-populate-stamp/glad-populate-update: glad-populate-prefix/src/glad-populate-stamp/glad-populate-update-info.txt
 glad-populate-prefix/src/glad-populate-stamp/glad-populate-update: glad-populate-prefix/src/glad-populate-stamp/glad-populate-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/seangandre/Downloads/files/build/_deps/glad-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Performing update step for 'glad-populate'"
-	cd /Users/seangandre/Downloads/files/build/_deps/glad-src && /opt/homebrew/bin/cmake -Dcan_fetch=YES -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P /Users/seangandre/Downloads/files/build/_deps/glad-subbuild/glad-populate-prefix/tmp/glad-populate-gitupdate.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/glad-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Performing update step for 'glad-populate'"
+	cd /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/glad-src && /opt/homebrew/bin/cmake -Dcan_fetch=YES -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/glad-subbuild/glad-populate-prefix/tmp/glad-populate-gitupdate.cmake
 
 CMakeFiles/glad-populate.dir/codegen:
 .PHONY : CMakeFiles/glad-populate.dir/codegen
@@ -157,6 +157,6 @@ CMakeFiles/glad-populate.dir/clean:
 .PHONY : CMakeFiles/glad-populate.dir/clean
 
 CMakeFiles/glad-populate.dir/depend:
-	cd /Users/seangandre/Downloads/files/build/_deps/glad-subbuild && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/seangandre/Downloads/files/build/_deps/glad-subbuild /Users/seangandre/Downloads/files/build/_deps/glad-subbuild /Users/seangandre/Downloads/files/build/_deps/glad-subbuild /Users/seangandre/Downloads/files/build/_deps/glad-subbuild /Users/seangandre/Downloads/files/build/_deps/glad-subbuild/CMakeFiles/glad-populate.dir/DependInfo.cmake "--color=$(COLOR)" glad-populate
+	cd /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/glad-subbuild && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/glad-subbuild /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/glad-subbuild /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/glad-subbuild /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/glad-subbuild /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/glad-subbuild/CMakeFiles/glad-populate.dir/DependInfo.cmake "--color=$(COLOR)" glad-populate
 .PHONY : CMakeFiles/glad-populate.dir/depend
 

@@ -1,7 +1,7 @@
 CMakeFiles/imgui.dir/_deps/imgui-src/backends/imgui_impl_opengl3.cpp.o: \
-  /Users/seangandre/Downloads/files/build/_deps/imgui-src/backends/imgui_impl_opengl3.cpp \
-  /Users/seangandre/Downloads/files/build/_deps/imgui-src/imgui.h \
-  /Users/seangandre/Downloads/files/build/_deps/imgui-src/imconfig.h \
+  /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/imgui-src/backends/imgui_impl_opengl3.cpp \
+  /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/imgui-src/imgui.h \
+  /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/imgui-src/imconfig.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/float.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config_site \
@@ -67,7 +67,7 @@ CMakeFiles/imgui.dir/_deps/imgui-src/backends/imgui_impl_opengl3.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_strings.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/assert.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_static_assert.h \
-  /Users/seangandre/Downloads/files/build/_deps/imgui-src/backends/imgui_impl_opengl3.h \
+  /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/imgui-src/backends/imgui_impl_opengl3.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/TargetConditionals.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/stdio.h \
@@ -87,7 +87,7 @@ CMakeFiles/imgui.dir/_deps/imgui-src/backends/imgui_impl_opengl3.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_uint64_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_intmax_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_uintmax_t.h \
-  /Users/seangandre/Downloads/files/build/_deps/imgui-src/backends/imgui_impl_opengl3_loader.h \
+  /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/imgui-src/backends/imgui_impl_opengl3_loader.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/stdlib.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/stdlib.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_stdlib.h \

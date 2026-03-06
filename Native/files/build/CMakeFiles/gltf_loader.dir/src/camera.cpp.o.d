@@ -1,6 +1,6 @@
 CMakeFiles/gltf_loader.dir/src/camera.cpp.o: \
-  /Users/seangandre/Downloads/files/src/camera.cpp \
-  /Users/seangandre/Downloads/files/include/camera.h \
+  /Users/seangandre/Documents/GitHub/Atlys/Native/files/src/camera.cpp \
+  /Users/seangandre/Documents/GitHub/Atlys/Native/files/include/camera.h \
   /opt/homebrew/include/glm/glm.hpp \
   /opt/homebrew/include/glm/detail/_fixes.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cmath \

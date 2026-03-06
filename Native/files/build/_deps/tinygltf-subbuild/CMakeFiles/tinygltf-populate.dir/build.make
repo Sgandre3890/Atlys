@@ -53,10 +53,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/seangandre/Downloads/files/build/_deps/tinygltf-subbuild
+CMAKE_SOURCE_DIR = /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinygltf-subbuild
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/seangandre/Downloads/files/build/_deps/tinygltf-subbuild
+CMAKE_BINARY_DIR = /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinygltf-subbuild
 
 # Utility rule file for tinygltf-populate.
 
@@ -77,60 +77,60 @@ CMakeFiles/tinygltf-populate-complete: tinygltf-populate-prefix/src/tinygltf-pop
 CMakeFiles/tinygltf-populate-complete: tinygltf-populate-prefix/src/tinygltf-populate-stamp/tinygltf-populate-build
 CMakeFiles/tinygltf-populate-complete: tinygltf-populate-prefix/src/tinygltf-populate-stamp/tinygltf-populate-install
 CMakeFiles/tinygltf-populate-complete: tinygltf-populate-prefix/src/tinygltf-populate-stamp/tinygltf-populate-test
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/seangandre/Downloads/files/build/_deps/tinygltf-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'tinygltf-populate'"
-	/opt/homebrew/bin/cmake -E make_directory /Users/seangandre/Downloads/files/build/_deps/tinygltf-subbuild/CMakeFiles
-	/opt/homebrew/bin/cmake -E touch /Users/seangandre/Downloads/files/build/_deps/tinygltf-subbuild/CMakeFiles/tinygltf-populate-complete
-	/opt/homebrew/bin/cmake -E touch /Users/seangandre/Downloads/files/build/_deps/tinygltf-subbuild/tinygltf-populate-prefix/src/tinygltf-populate-stamp/tinygltf-populate-done
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinygltf-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'tinygltf-populate'"
+	/opt/homebrew/bin/cmake -E make_directory /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinygltf-subbuild/CMakeFiles
+	/opt/homebrew/bin/cmake -E touch /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinygltf-subbuild/CMakeFiles/tinygltf-populate-complete
+	/opt/homebrew/bin/cmake -E touch /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinygltf-subbuild/tinygltf-populate-prefix/src/tinygltf-populate-stamp/tinygltf-populate-done
 
 tinygltf-populate-prefix/src/tinygltf-populate-stamp/tinygltf-populate-update:
 .PHONY : tinygltf-populate-prefix/src/tinygltf-populate-stamp/tinygltf-populate-update
 
 tinygltf-populate-prefix/src/tinygltf-populate-stamp/tinygltf-populate-build: tinygltf-populate-prefix/src/tinygltf-populate-stamp/tinygltf-populate-configure
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/seangandre/Downloads/files/build/_deps/tinygltf-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "No build step for 'tinygltf-populate'"
-	cd /Users/seangandre/Downloads/files/build/_deps/tinygltf-build && /opt/homebrew/bin/cmake -E echo_append
-	cd /Users/seangandre/Downloads/files/build/_deps/tinygltf-build && /opt/homebrew/bin/cmake -E touch /Users/seangandre/Downloads/files/build/_deps/tinygltf-subbuild/tinygltf-populate-prefix/src/tinygltf-populate-stamp/tinygltf-populate-build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinygltf-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "No build step for 'tinygltf-populate'"
+	cd /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinygltf-build && /opt/homebrew/bin/cmake -E echo_append
+	cd /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinygltf-build && /opt/homebrew/bin/cmake -E touch /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinygltf-subbuild/tinygltf-populate-prefix/src/tinygltf-populate-stamp/tinygltf-populate-build
 
 tinygltf-populate-prefix/src/tinygltf-populate-stamp/tinygltf-populate-configure: tinygltf-populate-prefix/tmp/tinygltf-populate-cfgcmd.txt
 tinygltf-populate-prefix/src/tinygltf-populate-stamp/tinygltf-populate-configure: tinygltf-populate-prefix/src/tinygltf-populate-stamp/tinygltf-populate-patch
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/seangandre/Downloads/files/build/_deps/tinygltf-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "No configure step for 'tinygltf-populate'"
-	cd /Users/seangandre/Downloads/files/build/_deps/tinygltf-build && /opt/homebrew/bin/cmake -E echo_append
-	cd /Users/seangandre/Downloads/files/build/_deps/tinygltf-build && /opt/homebrew/bin/cmake -E touch /Users/seangandre/Downloads/files/build/_deps/tinygltf-subbuild/tinygltf-populate-prefix/src/tinygltf-populate-stamp/tinygltf-populate-configure
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinygltf-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "No configure step for 'tinygltf-populate'"
+	cd /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinygltf-build && /opt/homebrew/bin/cmake -E echo_append
+	cd /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinygltf-build && /opt/homebrew/bin/cmake -E touch /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinygltf-subbuild/tinygltf-populate-prefix/src/tinygltf-populate-stamp/tinygltf-populate-configure
 
 tinygltf-populate-prefix/src/tinygltf-populate-stamp/tinygltf-populate-download: tinygltf-populate-prefix/src/tinygltf-populate-stamp/tinygltf-populate-gitinfo.txt
 tinygltf-populate-prefix/src/tinygltf-populate-stamp/tinygltf-populate-download: tinygltf-populate-prefix/src/tinygltf-populate-stamp/tinygltf-populate-mkdir
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/seangandre/Downloads/files/build/_deps/tinygltf-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Performing download step (git clone) for 'tinygltf-populate'"
-	cd /Users/seangandre/Downloads/files/build/_deps && /opt/homebrew/bin/cmake -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P /Users/seangandre/Downloads/files/build/_deps/tinygltf-subbuild/tinygltf-populate-prefix/tmp/tinygltf-populate-gitclone.cmake
-	cd /Users/seangandre/Downloads/files/build/_deps && /opt/homebrew/bin/cmake -E touch /Users/seangandre/Downloads/files/build/_deps/tinygltf-subbuild/tinygltf-populate-prefix/src/tinygltf-populate-stamp/tinygltf-populate-download
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinygltf-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Performing download step (git clone) for 'tinygltf-populate'"
+	cd /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps && /opt/homebrew/bin/cmake -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinygltf-subbuild/tinygltf-populate-prefix/tmp/tinygltf-populate-gitclone.cmake
+	cd /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps && /opt/homebrew/bin/cmake -E touch /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinygltf-subbuild/tinygltf-populate-prefix/src/tinygltf-populate-stamp/tinygltf-populate-download
 
 tinygltf-populate-prefix/src/tinygltf-populate-stamp/tinygltf-populate-install: tinygltf-populate-prefix/src/tinygltf-populate-stamp/tinygltf-populate-build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/seangandre/Downloads/files/build/_deps/tinygltf-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No install step for 'tinygltf-populate'"
-	cd /Users/seangandre/Downloads/files/build/_deps/tinygltf-build && /opt/homebrew/bin/cmake -E echo_append
-	cd /Users/seangandre/Downloads/files/build/_deps/tinygltf-build && /opt/homebrew/bin/cmake -E touch /Users/seangandre/Downloads/files/build/_deps/tinygltf-subbuild/tinygltf-populate-prefix/src/tinygltf-populate-stamp/tinygltf-populate-install
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinygltf-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No install step for 'tinygltf-populate'"
+	cd /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinygltf-build && /opt/homebrew/bin/cmake -E echo_append
+	cd /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinygltf-build && /opt/homebrew/bin/cmake -E touch /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinygltf-subbuild/tinygltf-populate-prefix/src/tinygltf-populate-stamp/tinygltf-populate-install
 
 tinygltf-populate-prefix/src/tinygltf-populate-stamp/tinygltf-populate-mkdir:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/seangandre/Downloads/files/build/_deps/tinygltf-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'tinygltf-populate'"
-	/opt/homebrew/bin/cmake -Dcfgdir= -P /Users/seangandre/Downloads/files/build/_deps/tinygltf-subbuild/tinygltf-populate-prefix/tmp/tinygltf-populate-mkdirs.cmake
-	/opt/homebrew/bin/cmake -E touch /Users/seangandre/Downloads/files/build/_deps/tinygltf-subbuild/tinygltf-populate-prefix/src/tinygltf-populate-stamp/tinygltf-populate-mkdir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinygltf-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'tinygltf-populate'"
+	/opt/homebrew/bin/cmake -Dcfgdir= -P /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinygltf-subbuild/tinygltf-populate-prefix/tmp/tinygltf-populate-mkdirs.cmake
+	/opt/homebrew/bin/cmake -E touch /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinygltf-subbuild/tinygltf-populate-prefix/src/tinygltf-populate-stamp/tinygltf-populate-mkdir
 
 tinygltf-populate-prefix/src/tinygltf-populate-stamp/tinygltf-populate-patch: tinygltf-populate-prefix/src/tinygltf-populate-stamp/tinygltf-populate-patch-info.txt
 tinygltf-populate-prefix/src/tinygltf-populate-stamp/tinygltf-populate-patch: tinygltf-populate-prefix/src/tinygltf-populate-stamp/tinygltf-populate-update
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/seangandre/Downloads/files/build/_deps/tinygltf-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'tinygltf-populate'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinygltf-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'tinygltf-populate'"
 	/opt/homebrew/bin/cmake -E echo_append
-	/opt/homebrew/bin/cmake -E touch /Users/seangandre/Downloads/files/build/_deps/tinygltf-subbuild/tinygltf-populate-prefix/src/tinygltf-populate-stamp/tinygltf-populate-patch
+	/opt/homebrew/bin/cmake -E touch /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinygltf-subbuild/tinygltf-populate-prefix/src/tinygltf-populate-stamp/tinygltf-populate-patch
 
 tinygltf-populate-prefix/src/tinygltf-populate-stamp/tinygltf-populate-update:
 .PHONY : tinygltf-populate-prefix/src/tinygltf-populate-stamp/tinygltf-populate-update
 
 tinygltf-populate-prefix/src/tinygltf-populate-stamp/tinygltf-populate-test: tinygltf-populate-prefix/src/tinygltf-populate-stamp/tinygltf-populate-install
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/seangandre/Downloads/files/build/_deps/tinygltf-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No test step for 'tinygltf-populate'"
-	cd /Users/seangandre/Downloads/files/build/_deps/tinygltf-build && /opt/homebrew/bin/cmake -E echo_append
-	cd /Users/seangandre/Downloads/files/build/_deps/tinygltf-build && /opt/homebrew/bin/cmake -E touch /Users/seangandre/Downloads/files/build/_deps/tinygltf-subbuild/tinygltf-populate-prefix/src/tinygltf-populate-stamp/tinygltf-populate-test
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinygltf-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No test step for 'tinygltf-populate'"
+	cd /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinygltf-build && /opt/homebrew/bin/cmake -E echo_append
+	cd /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinygltf-build && /opt/homebrew/bin/cmake -E touch /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinygltf-subbuild/tinygltf-populate-prefix/src/tinygltf-populate-stamp/tinygltf-populate-test
 
 tinygltf-populate-prefix/src/tinygltf-populate-stamp/tinygltf-populate-update: tinygltf-populate-prefix/tmp/tinygltf-populate-gitupdate.cmake
 tinygltf-populate-prefix/src/tinygltf-populate-stamp/tinygltf-populate-update: tinygltf-populate-prefix/src/tinygltf-populate-stamp/tinygltf-populate-update-info.txt
 tinygltf-populate-prefix/src/tinygltf-populate-stamp/tinygltf-populate-update: tinygltf-populate-prefix/src/tinygltf-populate-stamp/tinygltf-populate-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/seangandre/Downloads/files/build/_deps/tinygltf-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Performing update step for 'tinygltf-populate'"
-	cd /Users/seangandre/Downloads/files/build/_deps/tinygltf-src && /opt/homebrew/bin/cmake -Dcan_fetch=YES -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P /Users/seangandre/Downloads/files/build/_deps/tinygltf-subbuild/tinygltf-populate-prefix/tmp/tinygltf-populate-gitupdate.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinygltf-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Performing update step for 'tinygltf-populate'"
+	cd /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinygltf-src && /opt/homebrew/bin/cmake -Dcan_fetch=YES -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinygltf-subbuild/tinygltf-populate-prefix/tmp/tinygltf-populate-gitupdate.cmake
 
 CMakeFiles/tinygltf-populate.dir/codegen:
 .PHONY : CMakeFiles/tinygltf-populate.dir/codegen
@@ -157,6 +157,6 @@ CMakeFiles/tinygltf-populate.dir/clean:
 .PHONY : CMakeFiles/tinygltf-populate.dir/clean
 
 CMakeFiles/tinygltf-populate.dir/depend:
-	cd /Users/seangandre/Downloads/files/build/_deps/tinygltf-subbuild && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/seangandre/Downloads/files/build/_deps/tinygltf-subbuild /Users/seangandre/Downloads/files/build/_deps/tinygltf-subbuild /Users/seangandre/Downloads/files/build/_deps/tinygltf-subbuild /Users/seangandre/Downloads/files/build/_deps/tinygltf-subbuild /Users/seangandre/Downloads/files/build/_deps/tinygltf-subbuild/CMakeFiles/tinygltf-populate.dir/DependInfo.cmake "--color=$(COLOR)" tinygltf-populate
+	cd /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinygltf-subbuild && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinygltf-subbuild /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinygltf-subbuild /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinygltf-subbuild /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinygltf-subbuild /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinygltf-subbuild/CMakeFiles/tinygltf-populate.dir/DependInfo.cmake "--color=$(COLOR)" tinygltf-populate
 .PHONY : CMakeFiles/tinygltf-populate.dir/depend
 

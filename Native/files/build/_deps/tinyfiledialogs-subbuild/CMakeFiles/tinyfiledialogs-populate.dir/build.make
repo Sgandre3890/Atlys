@@ -53,10 +53,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/seangandre/Downloads/files/build/_deps/tinyfiledialogs-subbuild
+CMAKE_SOURCE_DIR = /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinyfiledialogs-subbuild
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/seangandre/Downloads/files/build/_deps/tinyfiledialogs-subbuild
+CMAKE_BINARY_DIR = /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinyfiledialogs-subbuild
 
 # Utility rule file for tinyfiledialogs-populate.
 
@@ -77,60 +77,60 @@ CMakeFiles/tinyfiledialogs-populate-complete: tinyfiledialogs-populate-prefix/sr
 CMakeFiles/tinyfiledialogs-populate-complete: tinyfiledialogs-populate-prefix/src/tinyfiledialogs-populate-stamp/tinyfiledialogs-populate-build
 CMakeFiles/tinyfiledialogs-populate-complete: tinyfiledialogs-populate-prefix/src/tinyfiledialogs-populate-stamp/tinyfiledialogs-populate-install
 CMakeFiles/tinyfiledialogs-populate-complete: tinyfiledialogs-populate-prefix/src/tinyfiledialogs-populate-stamp/tinyfiledialogs-populate-test
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/seangandre/Downloads/files/build/_deps/tinyfiledialogs-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'tinyfiledialogs-populate'"
-	/opt/homebrew/bin/cmake -E make_directory /Users/seangandre/Downloads/files/build/_deps/tinyfiledialogs-subbuild/CMakeFiles
-	/opt/homebrew/bin/cmake -E touch /Users/seangandre/Downloads/files/build/_deps/tinyfiledialogs-subbuild/CMakeFiles/tinyfiledialogs-populate-complete
-	/opt/homebrew/bin/cmake -E touch /Users/seangandre/Downloads/files/build/_deps/tinyfiledialogs-subbuild/tinyfiledialogs-populate-prefix/src/tinyfiledialogs-populate-stamp/tinyfiledialogs-populate-done
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinyfiledialogs-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'tinyfiledialogs-populate'"
+	/opt/homebrew/bin/cmake -E make_directory /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinyfiledialogs-subbuild/CMakeFiles
+	/opt/homebrew/bin/cmake -E touch /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinyfiledialogs-subbuild/CMakeFiles/tinyfiledialogs-populate-complete
+	/opt/homebrew/bin/cmake -E touch /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinyfiledialogs-subbuild/tinyfiledialogs-populate-prefix/src/tinyfiledialogs-populate-stamp/tinyfiledialogs-populate-done
 
 tinyfiledialogs-populate-prefix/src/tinyfiledialogs-populate-stamp/tinyfiledialogs-populate-update:
 .PHONY : tinyfiledialogs-populate-prefix/src/tinyfiledialogs-populate-stamp/tinyfiledialogs-populate-update
 
 tinyfiledialogs-populate-prefix/src/tinyfiledialogs-populate-stamp/tinyfiledialogs-populate-build: tinyfiledialogs-populate-prefix/src/tinyfiledialogs-populate-stamp/tinyfiledialogs-populate-configure
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/seangandre/Downloads/files/build/_deps/tinyfiledialogs-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "No build step for 'tinyfiledialogs-populate'"
-	cd /Users/seangandre/Downloads/files/build/_deps/tinyfiledialogs-build && /opt/homebrew/bin/cmake -E echo_append
-	cd /Users/seangandre/Downloads/files/build/_deps/tinyfiledialogs-build && /opt/homebrew/bin/cmake -E touch /Users/seangandre/Downloads/files/build/_deps/tinyfiledialogs-subbuild/tinyfiledialogs-populate-prefix/src/tinyfiledialogs-populate-stamp/tinyfiledialogs-populate-build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinyfiledialogs-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "No build step for 'tinyfiledialogs-populate'"
+	cd /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinyfiledialogs-build && /opt/homebrew/bin/cmake -E echo_append
+	cd /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinyfiledialogs-build && /opt/homebrew/bin/cmake -E touch /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinyfiledialogs-subbuild/tinyfiledialogs-populate-prefix/src/tinyfiledialogs-populate-stamp/tinyfiledialogs-populate-build
 
 tinyfiledialogs-populate-prefix/src/tinyfiledialogs-populate-stamp/tinyfiledialogs-populate-configure: tinyfiledialogs-populate-prefix/tmp/tinyfiledialogs-populate-cfgcmd.txt
 tinyfiledialogs-populate-prefix/src/tinyfiledialogs-populate-stamp/tinyfiledialogs-populate-configure: tinyfiledialogs-populate-prefix/src/tinyfiledialogs-populate-stamp/tinyfiledialogs-populate-patch
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/seangandre/Downloads/files/build/_deps/tinyfiledialogs-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "No configure step for 'tinyfiledialogs-populate'"
-	cd /Users/seangandre/Downloads/files/build/_deps/tinyfiledialogs-build && /opt/homebrew/bin/cmake -E echo_append
-	cd /Users/seangandre/Downloads/files/build/_deps/tinyfiledialogs-build && /opt/homebrew/bin/cmake -E touch /Users/seangandre/Downloads/files/build/_deps/tinyfiledialogs-subbuild/tinyfiledialogs-populate-prefix/src/tinyfiledialogs-populate-stamp/tinyfiledialogs-populate-configure
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinyfiledialogs-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "No configure step for 'tinyfiledialogs-populate'"
+	cd /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinyfiledialogs-build && /opt/homebrew/bin/cmake -E echo_append
+	cd /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinyfiledialogs-build && /opt/homebrew/bin/cmake -E touch /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinyfiledialogs-subbuild/tinyfiledialogs-populate-prefix/src/tinyfiledialogs-populate-stamp/tinyfiledialogs-populate-configure
 
 tinyfiledialogs-populate-prefix/src/tinyfiledialogs-populate-stamp/tinyfiledialogs-populate-download: tinyfiledialogs-populate-prefix/src/tinyfiledialogs-populate-stamp/tinyfiledialogs-populate-gitinfo.txt
 tinyfiledialogs-populate-prefix/src/tinyfiledialogs-populate-stamp/tinyfiledialogs-populate-download: tinyfiledialogs-populate-prefix/src/tinyfiledialogs-populate-stamp/tinyfiledialogs-populate-mkdir
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/seangandre/Downloads/files/build/_deps/tinyfiledialogs-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Performing download step (git clone) for 'tinyfiledialogs-populate'"
-	cd /Users/seangandre/Downloads/files/build/_deps && /opt/homebrew/bin/cmake -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P /Users/seangandre/Downloads/files/build/_deps/tinyfiledialogs-subbuild/tinyfiledialogs-populate-prefix/tmp/tinyfiledialogs-populate-gitclone.cmake
-	cd /Users/seangandre/Downloads/files/build/_deps && /opt/homebrew/bin/cmake -E touch /Users/seangandre/Downloads/files/build/_deps/tinyfiledialogs-subbuild/tinyfiledialogs-populate-prefix/src/tinyfiledialogs-populate-stamp/tinyfiledialogs-populate-download
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinyfiledialogs-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Performing download step (git clone) for 'tinyfiledialogs-populate'"
+	cd /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps && /opt/homebrew/bin/cmake -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinyfiledialogs-subbuild/tinyfiledialogs-populate-prefix/tmp/tinyfiledialogs-populate-gitclone.cmake
+	cd /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps && /opt/homebrew/bin/cmake -E touch /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinyfiledialogs-subbuild/tinyfiledialogs-populate-prefix/src/tinyfiledialogs-populate-stamp/tinyfiledialogs-populate-download
 
 tinyfiledialogs-populate-prefix/src/tinyfiledialogs-populate-stamp/tinyfiledialogs-populate-install: tinyfiledialogs-populate-prefix/src/tinyfiledialogs-populate-stamp/tinyfiledialogs-populate-build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/seangandre/Downloads/files/build/_deps/tinyfiledialogs-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No install step for 'tinyfiledialogs-populate'"
-	cd /Users/seangandre/Downloads/files/build/_deps/tinyfiledialogs-build && /opt/homebrew/bin/cmake -E echo_append
-	cd /Users/seangandre/Downloads/files/build/_deps/tinyfiledialogs-build && /opt/homebrew/bin/cmake -E touch /Users/seangandre/Downloads/files/build/_deps/tinyfiledialogs-subbuild/tinyfiledialogs-populate-prefix/src/tinyfiledialogs-populate-stamp/tinyfiledialogs-populate-install
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinyfiledialogs-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No install step for 'tinyfiledialogs-populate'"
+	cd /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinyfiledialogs-build && /opt/homebrew/bin/cmake -E echo_append
+	cd /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinyfiledialogs-build && /opt/homebrew/bin/cmake -E touch /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinyfiledialogs-subbuild/tinyfiledialogs-populate-prefix/src/tinyfiledialogs-populate-stamp/tinyfiledialogs-populate-install
 
 tinyfiledialogs-populate-prefix/src/tinyfiledialogs-populate-stamp/tinyfiledialogs-populate-mkdir:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/seangandre/Downloads/files/build/_deps/tinyfiledialogs-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'tinyfiledialogs-populate'"
-	/opt/homebrew/bin/cmake -Dcfgdir= -P /Users/seangandre/Downloads/files/build/_deps/tinyfiledialogs-subbuild/tinyfiledialogs-populate-prefix/tmp/tinyfiledialogs-populate-mkdirs.cmake
-	/opt/homebrew/bin/cmake -E touch /Users/seangandre/Downloads/files/build/_deps/tinyfiledialogs-subbuild/tinyfiledialogs-populate-prefix/src/tinyfiledialogs-populate-stamp/tinyfiledialogs-populate-mkdir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinyfiledialogs-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'tinyfiledialogs-populate'"
+	/opt/homebrew/bin/cmake -Dcfgdir= -P /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinyfiledialogs-subbuild/tinyfiledialogs-populate-prefix/tmp/tinyfiledialogs-populate-mkdirs.cmake
+	/opt/homebrew/bin/cmake -E touch /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinyfiledialogs-subbuild/tinyfiledialogs-populate-prefix/src/tinyfiledialogs-populate-stamp/tinyfiledialogs-populate-mkdir
 
 tinyfiledialogs-populate-prefix/src/tinyfiledialogs-populate-stamp/tinyfiledialogs-populate-patch: tinyfiledialogs-populate-prefix/src/tinyfiledialogs-populate-stamp/tinyfiledialogs-populate-patch-info.txt
 tinyfiledialogs-populate-prefix/src/tinyfiledialogs-populate-stamp/tinyfiledialogs-populate-patch: tinyfiledialogs-populate-prefix/src/tinyfiledialogs-populate-stamp/tinyfiledialogs-populate-update
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/seangandre/Downloads/files/build/_deps/tinyfiledialogs-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'tinyfiledialogs-populate'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinyfiledialogs-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'tinyfiledialogs-populate'"
 	/opt/homebrew/bin/cmake -E echo_append
-	/opt/homebrew/bin/cmake -E touch /Users/seangandre/Downloads/files/build/_deps/tinyfiledialogs-subbuild/tinyfiledialogs-populate-prefix/src/tinyfiledialogs-populate-stamp/tinyfiledialogs-populate-patch
+	/opt/homebrew/bin/cmake -E touch /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinyfiledialogs-subbuild/tinyfiledialogs-populate-prefix/src/tinyfiledialogs-populate-stamp/tinyfiledialogs-populate-patch
 
 tinyfiledialogs-populate-prefix/src/tinyfiledialogs-populate-stamp/tinyfiledialogs-populate-update:
 .PHONY : tinyfiledialogs-populate-prefix/src/tinyfiledialogs-populate-stamp/tinyfiledialogs-populate-update
 
 tinyfiledialogs-populate-prefix/src/tinyfiledialogs-populate-stamp/tinyfiledialogs-populate-test: tinyfiledialogs-populate-prefix/src/tinyfiledialogs-populate-stamp/tinyfiledialogs-populate-install
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/seangandre/Downloads/files/build/_deps/tinyfiledialogs-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No test step for 'tinyfiledialogs-populate'"
-	cd /Users/seangandre/Downloads/files/build/_deps/tinyfiledialogs-build && /opt/homebrew/bin/cmake -E echo_append
-	cd /Users/seangandre/Downloads/files/build/_deps/tinyfiledialogs-build && /opt/homebrew/bin/cmake -E touch /Users/seangandre/Downloads/files/build/_deps/tinyfiledialogs-subbuild/tinyfiledialogs-populate-prefix/src/tinyfiledialogs-populate-stamp/tinyfiledialogs-populate-test
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinyfiledialogs-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No test step for 'tinyfiledialogs-populate'"
+	cd /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinyfiledialogs-build && /opt/homebrew/bin/cmake -E echo_append
+	cd /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinyfiledialogs-build && /opt/homebrew/bin/cmake -E touch /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinyfiledialogs-subbuild/tinyfiledialogs-populate-prefix/src/tinyfiledialogs-populate-stamp/tinyfiledialogs-populate-test
 
 tinyfiledialogs-populate-prefix/src/tinyfiledialogs-populate-stamp/tinyfiledialogs-populate-update: tinyfiledialogs-populate-prefix/tmp/tinyfiledialogs-populate-gitupdate.cmake
 tinyfiledialogs-populate-prefix/src/tinyfiledialogs-populate-stamp/tinyfiledialogs-populate-update: tinyfiledialogs-populate-prefix/src/tinyfiledialogs-populate-stamp/tinyfiledialogs-populate-update-info.txt
 tinyfiledialogs-populate-prefix/src/tinyfiledialogs-populate-stamp/tinyfiledialogs-populate-update: tinyfiledialogs-populate-prefix/src/tinyfiledialogs-populate-stamp/tinyfiledialogs-populate-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/seangandre/Downloads/files/build/_deps/tinyfiledialogs-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Performing update step for 'tinyfiledialogs-populate'"
-	cd /Users/seangandre/Downloads/files/build/_deps/tinyfiledialogs-src && /opt/homebrew/bin/cmake -Dcan_fetch=YES -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P /Users/seangandre/Downloads/files/build/_deps/tinyfiledialogs-subbuild/tinyfiledialogs-populate-prefix/tmp/tinyfiledialogs-populate-gitupdate.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinyfiledialogs-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Performing update step for 'tinyfiledialogs-populate'"
+	cd /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinyfiledialogs-src && /opt/homebrew/bin/cmake -Dcan_fetch=YES -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinyfiledialogs-subbuild/tinyfiledialogs-populate-prefix/tmp/tinyfiledialogs-populate-gitupdate.cmake
 
 CMakeFiles/tinyfiledialogs-populate.dir/codegen:
 .PHONY : CMakeFiles/tinyfiledialogs-populate.dir/codegen
@@ -157,6 +157,6 @@ CMakeFiles/tinyfiledialogs-populate.dir/clean:
 .PHONY : CMakeFiles/tinyfiledialogs-populate.dir/clean
 
 CMakeFiles/tinyfiledialogs-populate.dir/depend:
-	cd /Users/seangandre/Downloads/files/build/_deps/tinyfiledialogs-subbuild && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/seangandre/Downloads/files/build/_deps/tinyfiledialogs-subbuild /Users/seangandre/Downloads/files/build/_deps/tinyfiledialogs-subbuild /Users/seangandre/Downloads/files/build/_deps/tinyfiledialogs-subbuild /Users/seangandre/Downloads/files/build/_deps/tinyfiledialogs-subbuild /Users/seangandre/Downloads/files/build/_deps/tinyfiledialogs-subbuild/CMakeFiles/tinyfiledialogs-populate.dir/DependInfo.cmake "--color=$(COLOR)" tinyfiledialogs-populate
+	cd /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinyfiledialogs-subbuild && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinyfiledialogs-subbuild /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinyfiledialogs-subbuild /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinyfiledialogs-subbuild /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinyfiledialogs-subbuild /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinyfiledialogs-subbuild/CMakeFiles/tinyfiledialogs-populate.dir/DependInfo.cmake "--color=$(COLOR)" tinyfiledialogs-populate
 .PHONY : CMakeFiles/tinyfiledialogs-populate.dir/depend
 

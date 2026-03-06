@@ -1,5 +1,5 @@
 CMakeFiles/tinyfiledialogs.dir/_deps/tinyfiledialogs-src/tinyfiledialogs.c.o: \
-  /Users/seangandre/Downloads/files/build/_deps/tinyfiledialogs-src/tinyfiledialogs.c \
+  /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinyfiledialogs-src/tinyfiledialogs.c \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_bounds.h \
@@ -97,4 +97,4 @@ CMakeFiles/tinyfiledialogs.dir/_deps/tinyfiledialogs-src/tinyfiledialogs.c.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/utsname.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/signal.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_t.h \
-  /Users/seangandre/Downloads/files/build/_deps/tinyfiledialogs-src/tinyfiledialogs.h
+  /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinyfiledialogs-src/tinyfiledialogs.h

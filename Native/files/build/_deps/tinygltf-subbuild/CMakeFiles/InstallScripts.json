@@ -1,7 +1,7 @@
 {
 	"InstallScripts" : 
 	[
-		"/Users/seangandre/Downloads/files/build/_deps/tinygltf-subbuild/cmake_install.cmake"
+		"/Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinygltf-subbuild/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

@@ -53,10 +53,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/seangandre/Downloads/files
+CMAKE_SOURCE_DIR = /Users/seangandre/Documents/GitHub/Atlys/Native/files
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/seangandre/Downloads/files/build
+CMAKE_BINARY_DIR = /Users/seangandre/Documents/GitHub/Atlys/Native/files/build
 
 # Include any dependencies generated for this target.
 include _deps/glad-build/CMakeFiles/glad.dir/depend.make
@@ -70,8 +70,8 @@ include _deps/glad-build/CMakeFiles/glad.dir/progress.make
 include _deps/glad-build/CMakeFiles/glad.dir/flags.make
 
 _deps/glad-build/include/glad/glad.h:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/seangandre/Downloads/files/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating GLAD"
-	cd /Users/seangandre/Downloads/files/build/_deps/glad-src && /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9 -m glad --profile=core --out-path=/Users/seangandre/Downloads/files/build/_deps/glad-build --api=gl=3.3 --generator=c --extensions= --spec=gl
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/seangandre/Documents/GitHub/Atlys/Native/files/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating GLAD"
+	cd /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/glad-src && /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9 -m glad --profile=core --out-path=/Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/glad-build --api=gl=3.3 --generator=c --extensions= --spec=gl
 
 _deps/glad-build/src/glad.c: _deps/glad-build/include/glad/glad.h
 	@$(CMAKE_COMMAND) -E touch_nocreate _deps/glad-build/src/glad.c
@@ -82,16 +82,16 @@ _deps/glad-build/CMakeFiles/glad.dir/codegen:
 _deps/glad-build/CMakeFiles/glad.dir/src/glad.c.o: _deps/glad-build/CMakeFiles/glad.dir/flags.make
 _deps/glad-build/CMakeFiles/glad.dir/src/glad.c.o: _deps/glad-build/src/glad.c
 _deps/glad-build/CMakeFiles/glad.dir/src/glad.c.o: _deps/glad-build/CMakeFiles/glad.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/seangandre/Downloads/files/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object _deps/glad-build/CMakeFiles/glad.dir/src/glad.c.o"
-	cd /Users/seangandre/Downloads/files/build/_deps/glad-build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/glad-build/CMakeFiles/glad.dir/src/glad.c.o -MF CMakeFiles/glad.dir/src/glad.c.o.d -o CMakeFiles/glad.dir/src/glad.c.o -c /Users/seangandre/Downloads/files/build/_deps/glad-build/src/glad.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/seangandre/Documents/GitHub/Atlys/Native/files/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object _deps/glad-build/CMakeFiles/glad.dir/src/glad.c.o"
+	cd /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/glad-build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/glad-build/CMakeFiles/glad.dir/src/glad.c.o -MF CMakeFiles/glad.dir/src/glad.c.o.d -o CMakeFiles/glad.dir/src/glad.c.o -c /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/glad-build/src/glad.c
 
 _deps/glad-build/CMakeFiles/glad.dir/src/glad.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/glad.dir/src/glad.c.i"
-	cd /Users/seangandre/Downloads/files/build/_deps/glad-build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/seangandre/Downloads/files/build/_deps/glad-build/src/glad.c > CMakeFiles/glad.dir/src/glad.c.i
+	cd /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/glad-build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/glad-build/src/glad.c > CMakeFiles/glad.dir/src/glad.c.i
 
 _deps/glad-build/CMakeFiles/glad.dir/src/glad.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/glad.dir/src/glad.c.s"
-	cd /Users/seangandre/Downloads/files/build/_deps/glad-build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/seangandre/Downloads/files/build/_deps/glad-build/src/glad.c -o CMakeFiles/glad.dir/src/glad.c.s
+	cd /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/glad-build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/glad-build/src/glad.c -o CMakeFiles/glad.dir/src/glad.c.s
 
 # Object files for target glad
 glad_OBJECTS = \
@@ -103,20 +103,20 @@ glad_EXTERNAL_OBJECTS =
 _deps/glad-build/libglad.a: _deps/glad-build/CMakeFiles/glad.dir/src/glad.c.o
 _deps/glad-build/libglad.a: _deps/glad-build/CMakeFiles/glad.dir/build.make
 _deps/glad-build/libglad.a: _deps/glad-build/CMakeFiles/glad.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/seangandre/Downloads/files/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C static library libglad.a"
-	cd /Users/seangandre/Downloads/files/build/_deps/glad-build && $(CMAKE_COMMAND) -P CMakeFiles/glad.dir/cmake_clean_target.cmake
-	cd /Users/seangandre/Downloads/files/build/_deps/glad-build && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/glad.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/seangandre/Documents/GitHub/Atlys/Native/files/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C static library libglad.a"
+	cd /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/glad-build && $(CMAKE_COMMAND) -P CMakeFiles/glad.dir/cmake_clean_target.cmake
+	cd /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/glad-build && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/glad.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 _deps/glad-build/CMakeFiles/glad.dir/build: _deps/glad-build/libglad.a
 .PHONY : _deps/glad-build/CMakeFiles/glad.dir/build
 
 _deps/glad-build/CMakeFiles/glad.dir/clean:
-	cd /Users/seangandre/Downloads/files/build/_deps/glad-build && $(CMAKE_COMMAND) -P CMakeFiles/glad.dir/cmake_clean.cmake
+	cd /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/glad-build && $(CMAKE_COMMAND) -P CMakeFiles/glad.dir/cmake_clean.cmake
 .PHONY : _deps/glad-build/CMakeFiles/glad.dir/clean
 
 _deps/glad-build/CMakeFiles/glad.dir/depend: _deps/glad-build/include/glad/glad.h
 _deps/glad-build/CMakeFiles/glad.dir/depend: _deps/glad-build/src/glad.c
-	cd /Users/seangandre/Downloads/files/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/seangandre/Downloads/files /Users/seangandre/Downloads/files/build/_deps/glad-src /Users/seangandre/Downloads/files/build /Users/seangandre/Downloads/files/build/_deps/glad-build /Users/seangandre/Downloads/files/build/_deps/glad-build/CMakeFiles/glad.dir/DependInfo.cmake "--color=$(COLOR)" glad
+	cd /Users/seangandre/Documents/GitHub/Atlys/Native/files/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/seangandre/Documents/GitHub/Atlys/Native/files /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/glad-src /Users/seangandre/Documents/GitHub/Atlys/Native/files/build /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/glad-build /Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/glad-build/CMakeFiles/glad.dir/DependInfo.cmake "--color=$(COLOR)" glad
 .PHONY : _deps/glad-build/CMakeFiles/glad.dir/depend
 

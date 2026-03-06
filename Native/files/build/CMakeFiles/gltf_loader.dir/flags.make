@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DGLM_ENABLE_EXPERIMENTAL
 
-CXX_INCLUDES = -I/Users/seangandre/Downloads/files/include -I/Users/seangandre/Downloads/files/build/_deps/tinygltf-src -I/Users/seangandre/Downloads/files/build/_deps/tinyfiledialogs-src -I/Users/seangandre/Downloads/files/build/_deps/glad-build/include -I/Users/seangandre/Downloads/files/build/_deps/imgui-src -I/Users/seangandre/Downloads/files/build/_deps/imgui-src/backends -isystem /opt/homebrew/include
+CXX_INCLUDES = -I/Users/seangandre/Documents/GitHub/Atlys/Native/files/include -I/Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinygltf-src -I/Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinyfiledialogs-src -I/Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/glad-build/include -I/Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/imgui-src -I/Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/imgui-src/backends -isystem /opt/homebrew/include
 
 CXX_FLAGSarm64 = -O3 -DNDEBUG -std=gnu++17 -arch arm64
 
