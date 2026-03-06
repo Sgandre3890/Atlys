@@ -1,15 +1,4 @@
-# GLTF / GLB Model Loader (OpenGL 3.3 + CMake)
-
-A minimal but complete GLTF/GLB viewer built with:
-
-| Library | Role |
-|---------|------|
-| **GLFW 3** | Window & input |
-| **glad** | OpenGL function loader |
-| **glm** | Math (vectors, matrices, quaternions) |
-| **tinygltf** | GLTF 2.0 / GLB parsing + stb_image |
-
-All dependencies are fetched automatically by CMake via `FetchContent` — no manual installs required.
+# GLTF / GLB Model Loader with (OpenGL + CMake)
 
 ---
 
