@@ -7,7 +7,7 @@ cmake -S . -B build -DCMAKE_BUILD_TYPE=Release -DCMAKE_POLICY_VERSION_MINIMUM=3.
 cmake --build build --parallel
 ./gltf_loader
 ```
-#To compile after build with cmake:
+To compile after build with cmake:
 ```bash
 cmake --build build --parallel
 ./gltf_loader
