@@ -1,15 +1,4 @@
-# GLTF / GLB Model Loader (OpenGL 3.3 + CMake)
-
-A minimal but complete GLTF/GLB viewer built with:
-
-| Library | Role |
-|---------|------|
-| **GLFW 3** | Window & input |
-| **glad** | OpenGL function loader |
-| **glm** | Math (vectors, matrices, quaternions) |
-| **tinygltf** | GLTF 2.0 / GLB parsing + stb_image |
-
-All dependencies are fetched automatically by CMake via `FetchContent` — no manual installs required.
+# GLTF / GLB Model Loader with (OpenGL + CMake)
 
 ---
 
@@ -46,9 +35,7 @@ cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
 cmake --build build --parallel
 
 # 4. Run
-./build/gltf_loader path/to/model.glb
-./build/gltf_loader path/to/model.gltf
-```
+./build/gltf_loader 
 
 > **Windows (MSVC):** open the generated `.sln`, or run
 > `cmake --build build --config Release`
