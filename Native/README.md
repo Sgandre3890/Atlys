@@ -22,7 +22,7 @@ Shader uses static methods for compileShader and readFile methods that belong to
 Memory Management 
 
 Model::destroy() manually calls glDeleteVertexArrays, glDeleteBuffers, and glDeleteTextures with manual resource cleanup, the C++ equivalent of what RAII and destructors formalize. This is a good example of why destructors exist.
-The texture cache (m_texCache) uses an unordered_map to avoid uploading the same texture twice — a practical application of hash maps for deduplication.
+The texture cache (m_texCache) uses an unordered_map to avoid uploading the same texture twice a practical application of hash maps for deduplication.
 
 Data Structures
 
