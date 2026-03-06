@@ -1,0 +1,82 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.6.1">
+  <diagram id="rZWdYWbKCzT_mjOM0uoQ" name="Page-1">
+    <mxGraphModel dx="2066" dy="1137" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1900" pageHeight="1400" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;fontStyle=1;" value="ATLYS - Class Diagram (Native C++)" vertex="1">
+          <mxGeometry height="40" width="700" x="400" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="enum_cam" parent="1" style="swimlane;fontStyle=1;align=center;startSize=40;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=13;" value="«controls»&#xa;CameraMovement" vertex="1">
+          <mxGeometry height="180" width="220" x="60" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="enum_cam_vals" parent="enum_cam" style="text;html=1;align=left;verticalAlign=top;spacingLeft=12;fillColor=#fff2cc;fontSize=12;" value="FORWARD - W&lt;br&gt;BACKWARD - S&lt;br&gt;LEFT - A&lt;br&gt;RIGHT - D&lt;br&gt;UP - E&lt;br&gt;DOWN - Q" vertex="1">
+          <mxGeometry height="140" width="220" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="camera" parent="1" style="swimlane;fontStyle=1;align=center;startSize=40;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;" value="«class»&#xa;Camera" vertex="1">
+          <mxGeometry height="390" width="320" x="340" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cam_fields" parent="camera" style="text;html=1;align=left;verticalAlign=top;spacingLeft=10;fillColor=#f5f5f5;strokeColor=#d6d6d6;fontColor=#333333;fontSize=11;" value="+ Position : glm::vec3&#xa;+ Front : glm::vec3&#xa;+ Up : glm::vec3&#xa;+ Right : glm::vec3&#xa;+ WorldUp : glm::vec3&#xa;+ Yaw : float = -90.0f&#xa;+ Pitch : float = 0.0f&#xa;+ Speed : float = 5.0f&#xa;+ Sensitivity : float = 0.1f&#xa;+ Zoom : float = 45.0f" vertex="1">
+          <mxGeometry height="170" width="320" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cam_div" parent="camera" style="line;strokeColor=#6c8ebf;" value="" vertex="1">
+          <mxGeometry height="10" width="320" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="prim" parent="1" style="swimlane;fontStyle=1;align=center;startSize=40;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;" value="«struct»&#xa;Primitive" vertex="1">
+          <mxGeometry height="310" width="310" x="60" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="prim_fields" parent="prim" style="text;html=1;align=left;verticalAlign=top;spacingLeft=10;fillColor=#f5f5f5;strokeColor=#d6d6d6;fontColor=#333333;fontSize=11;" value="+ vao : GLuint = 0&#xa;+ vbo : GLuint = 0&#xa;+ ebo : GLuint = 0&#xa;+ indexCount : GLsizei = 0&#xa;+ indexType : GLenum = GL_UNSIGNED_INT&#xa;+ hasIndices : bool = false&#xa;+ vertexCount : GLsizei = 0&#xa;+ baseColorFactor : glm::vec4 = vec4(1.0)&#xa;+ baseColorTex : GLuint = 0&#xa;+ hasTexture : bool = false" vertex="1">
+          <mxGeometry height="270" width="310" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="node" parent="1" style="swimlane;fontStyle=1;align=center;startSize=40;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;" value="«struct»&#xa;Node" vertex="1">
+          <mxGeometry height="140" width="310" x="60" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="node_fields" parent="node" style="text;html=1;align=left;verticalAlign=top;spacingLeft=10;fillColor=#f5f5f5;strokeColor=#d6d6d6;fontColor=#333333;fontSize=11;" value="+ transform : glm::mat4 = mat4(1.0)&#xa;+ children : vector&lt;int&gt;&#xa;+ primitiveIndices : vector&lt;int&gt;" vertex="1">
+          <mxGeometry height="100" width="310" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="model" parent="1" style="swimlane;fontStyle=1;align=center;startSize=40;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;" value="«class»&#xa;Model" vertex="1">
+          <mxGeometry height="440" width="360" x="440" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="model_fields" parent="model" style="text;html=1;align=left;verticalAlign=top;spacingLeft=10;fillColor=#f5f5f5;strokeColor=#d6d6d6;fontColor=#333333;fontSize=11;" value="+ primitives : vector&lt;Primitive&gt;&#xa;+ nodes : vector&lt;Node&gt;&#xa;+ rootNode : int = -1&#xa;+ aabbMin : glm::vec3 = vec3(1e30f)&#xa;+ aabbMax : glm::vec3 = vec3(-1e30f)&#xa;&#xa;- m_texCache : unordered_map&lt;int, GLuint&gt;" vertex="1">
+          <mxGeometry height="140" width="360" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="model_div" parent="model" style="line;strokeColor=#6c8ebf;" value="" vertex="1">
+          <mxGeometry height="10" width="360" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="model_methods" parent="model" style="text;html=1;align=left;verticalAlign=top;spacingLeft=10;fillColor=#dae8fc;fontSize=11;" value="+ load(path : string) : bool&lt;br&gt;+ draw(shader : Shader&amp;amp;) : void&lt;br&gt;+ destroy() : void&lt;br&gt;&lt;br&gt;- processNode(model : tinygltf::Model&amp;amp;, nodeIdx : int, parentTransform&lt;br&gt;- processMesh(model : tinygltf::Model&amp;amp;, mesh : tinygltf::Mesh&amp;amp;) : int&lt;br&gt;- buildPrimitive(model : tinygltf::Model&amp;amp;, prim : tinygltf::Primitive&amp;amp;) : int&lt;br&gt;- loadTexture(model : tinygltf::Model&amp;amp;, texIndex : int) : GLuint&lt;br&gt;- drawNode(node : Node&amp;amp;, shader : Shader&amp;amp;, parent : glm::mat4) : vois" vertex="1">
+          <mxGeometry height="252" width="360" y="188" as="geometry" />
+        </mxCell>
+        <mxCell id="shader" parent="1" style="swimlane;fontStyle=1;align=center;startSize=40;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;" value="«class»&#xa;Shader" vertex="1">
+          <mxGeometry height="420" width="340" x="880" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="shader_fields" parent="shader" style="text;html=1;align=left;verticalAlign=top;spacingLeft=10;fillColor=#f5f5f5;strokeColor=#d6d6d6;fontColor=#333333;fontSize=11;" value="+ ID : GLuint = 0" vertex="1">
+          <mxGeometry height="40" width="340" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="shader_div" parent="shader" style="line;strokeColor=#6c8ebf;" value="" vertex="1">
+          <mxGeometry height="10" width="340" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="shader_methods" parent="shader" style="text;html=1;align=left;verticalAlign=top;spacingLeft=10;fillColor=#dae8fc;fontSize=11;" value="+ Shader()&#xa;+ Shader(vertPath : const char*, fragPath : const char*)&#xa;+ use() : void&#xa;+ setBool(name : string, value : bool) : void&#xa;+ setInt(name : string, value : int) : void&#xa;+ setFloat(name : string, value : float) : void&#xa;+ setVec3(name : string, v : glm::vec3) : void&#xa;+ setMat4(name : string, m : glm::mat4) : void&#xa;&#xa;- compileShader(type : GLenum, src : string) : GLuint  «static»&#xa;- readFile(path : const char*) : string  «static»" vertex="1">
+          <mxGeometry height="332" width="340" y="88" as="geometry" />
+        </mxCell>
+        <mxCell id="e_enum_cam" edge="1" parent="1" source="camera" style="edgeStyle=orthogonalEdgeStyle;dashed=1;endArrow=open;endFill=0;strokeColor=#d6b656;fontSize=11;" target="enum_cam" value="«use»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_model_prim" edge="1" parent="1" source="model" style="edgeStyle=orthogonalEdgeStyle;endArrow=open;endFill=0;startArrow=diamondThin;startFill=1;strokeColor=#82b366;fontSize=11;" target="prim" value="primitives">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_model_node" edge="1" parent="1" source="model" style="edgeStyle=orthogonalEdgeStyle;endArrow=open;endFill=0;startArrow=diamondThin;startFill=1;strokeColor=#82b366;fontSize=11;" target="node" value="nodes">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_node_prim" edge="1" parent="1" source="node" style="edgeStyle=orthogonalEdgeStyle;dashed=1;endArrow=open;endFill=0;strokeColor=#82b366;fontSize=11;" target="prim" value="primitiveIndices">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_model_shader" edge="1" parent="1" source="model" style="edgeStyle=orthogonalEdgeStyle;dashed=1;endArrow=open;endFill=0;strokeColor=#6c8ebf;fontSize=11;" target="shader" value="«use»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cam_methods" parent="1" style="text;html=1;align=left;verticalAlign=top;spacingLeft=10;fillColor=#dae8fc;fontSize=11;" value="+ Camera(position : glm::vec3)&lt;br&gt;+ GetViewMatrix() : glm::mat4&lt;br&gt;+ ProcessKeyboard(dir : CameraMovement, dt : float) : void&lt;br&gt;+ ProcessMouseMovement(xoff : float, yoff : float&lt;div&gt;+ ProcessMouseScroll(yoff : float) : void&lt;br&gt;&lt;br&gt;- updateVectors() : void&lt;/div&gt;" vertex="1">
+          <mxGeometry height="172" width="320" x="340" y="298" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
