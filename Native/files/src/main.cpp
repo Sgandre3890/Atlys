@@ -16,7 +16,7 @@
 #include <iostream>
 #include <string>
 
-// ── Globals ───────────────────────────────────────────────────────────────────
+// Global variables
 static int   g_winW=1280, g_winH=720;
 static float g_dt=0.f, g_lastFrame=0.f;
 static bool  g_firstMouse=true;
@@ -26,7 +26,7 @@ static Camera* g_cam=nullptr;
 enum class AppState { START, VIEW };
 static AppState g_state = AppState::START;
 
-// ── Callbacks ─────────────────────────────────────────────────────────────────
+// Callbacks for GLFW events
 static void cbFramebuffer(GLFWwindow*, int w, int h){ glViewport(0,0,w,h); }
 static void cbWindow(GLFWwindow*, int w, int h){ g_winW=w; g_winH=h; }
 static void cbScroll(GLFWwindow*,double,double y){
@@ -50,7 +50,7 @@ static void doMove(GLFWwindow* w){
     if(glfwGetKey(w,GLFW_KEY_E)==GLFW_PRESS) g_cam->ProcessKeyboard(CameraMovement::UP,      g_dt);
 }
 
-// ── Entry ─────────────────────────────────────────────────────────────────────
+// Main entry point
 int main(int argc, char* argv[]){
     if(!glfwInit()){ std::cerr<<"GLFW init failed\n"; return 1; }
     glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR,3);
@@ -81,7 +81,7 @@ int main(int argc, char* argv[]){
     glEnable(GL_BLEND);
     glBlendFunc(GL_SRC_ALPHA,GL_ONE_MINUS_SRC_ALPHA);
 
-    // ── ImGui setup ───────────────────────────────────────────────────────────
+    // I'm GUI steup code, so it's all in main() for simplicity
     IMGUI_CHECKVERSION();
     ImGui::CreateContext();
     ImGuiIO& io = ImGui::GetIO();
@@ -106,11 +106,11 @@ int main(int argc, char* argv[]){
     ImGui_ImplGlfw_InitForOpenGL(win,true);
     ImGui_ImplOpenGL3_Init("#version 330");
 
-    // Scale font for Retina
+    // This is for the Retina displays on mac
     int fbW,fbH; glfwGetFramebufferSize(win,&fbW,&fbH);
     float dpi = (float)fbW / (float)g_winW;
     std::cout<<"DPI scale: "<<dpi<<"\n";
-    // Let ImGui handle retina automatically - just set fb scale
+    //handles retina automatically
     io.DisplayFramebufferScale = ImVec2(dpi, dpi);
     io.Fonts->Clear();
     ImFontConfig cfg;
@@ -118,7 +118,7 @@ int main(int argc, char* argv[]){
     io.Fonts->AddFontDefault(&cfg);
     ImGui_ImplOpenGL3_CreateFontsTexture();
 
-    // ── App state ─────────────────────────────────────────────────────────────
+    // Other classes
     Camera cam(glm::vec3(0,0,4));
     g_cam=&cam;
 
@@ -145,7 +145,7 @@ int main(int argc, char* argv[]){
         }
     }
 
-    // ── Render loop ───────────────────────────────────────────────────────────
+    // Render loop
     while(!glfwWindowShouldClose(win)){
         float now=(float)glfwGetTime();
         g_dt=now-g_lastFrame; g_lastFrame=now;
@@ -163,8 +163,7 @@ int main(int argc, char* argv[]){
         glClear(GL_COLOR_BUFFER_BIT|GL_DEPTH_BUFFER_BIT);
 
         if(g_state==AppState::START){
-            // ── Start screen ──────────────────────────────────────────────────
-            // Full-screen invisible window as backdrop
+            // Start screen UI
             ImGui::SetNextWindowPos(ImVec2(0,0));
             ImGui::SetNextWindowSize(ImGui::GetIO().DisplaySize);
             ImGui::SetNextWindowBgAlpha(0.f);
@@ -235,7 +234,7 @@ int main(int argc, char* argv[]){
             ImGui::End();
 
         } else {
-            // ── 3-D render ────────────────────────────────────────────────────
+            // The model viewing screen
             glEnable(GL_DEPTH_TEST);
             glm::vec3 c=(model.aabbMin+model.aabbMax)*.5f;
             float r=glm::length(model.aabbMax-model.aabbMin)*.5f;
@@ -255,7 +254,7 @@ int main(int argc, char* argv[]){
             modelShader.setVec3("uViewPos",cam.Position);
             if(loaded) model.draw(modelShader);
 
-            // ── HUD overlay ───────────────────────────────────────────────────
+            // ─The HUD overlay 
             glDisable(GL_DEPTH_TEST);
             ImGui::SetNextWindowPos(ImVec2(0,0));
             ImGui::SetNextWindowSize(ImVec2(io.DisplaySize.x, 0));
