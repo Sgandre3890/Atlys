@@ -55,8 +55,7 @@ cp "$FORMULA_DIR/shaders/"* "$SHARE_DIR/shaders/"
 
 echo ""
 echo "──────────────────────────────────"
-echo "✓ Done! Run it with:"
+echo " Done! Run it with:"
 echo ""
-echo "    gltf_loader                  # open file picker"
-echo "    gltf_loader path/to/model.glb"
+echo "    ./gltf_loader                  
 echo ""
