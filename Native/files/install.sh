@@ -11,7 +11,7 @@ SHARE_DIR="$(brew --prefix)/share/gltf_loader"
 BIN_DIR="$(brew --prefix)/bin"
 
 echo ""
-echo "  GLTF Loader – installer"
+echo "  GLTF Loader - installer"
 echo "──────────────────────────────────"
 
 # 1. Check / install Homebrew
