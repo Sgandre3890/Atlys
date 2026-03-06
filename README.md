@@ -17,7 +17,7 @@ https://github.com/Sgandre3890/OpenGL
 
 ### Tutorials from which I learned openGL for Native:
 - https://learnopengl.com/book/book_pdf.pdf
-- 
+- https://github.com/JoeyDeVries/LearnOpenGL
 
 
 ### Description:
