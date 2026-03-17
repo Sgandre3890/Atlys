@@ -1,9 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"/Users/seangandre/Documents/GitHub/Atlys/Native/files/build/cmake_install.cmake",
-		"/Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/glad-build/cmake_install.cmake",
-		"/Users/seangandre/Documents/GitHub/Atlys/Native/files/build/_deps/tinygltf-build/cmake_install.cmake"
-	],
-	"Parallel" : false
-}
