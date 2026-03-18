@@ -1,0 +1,213 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.6.1">
+  <diagram name="Model Viewer Class Diagram" id="0">
+    <mxGraphModel dx="1394" dy="773" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1600" pageHeight="1000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;fontColor=#1a1a2e;" value="UML diagram of the Assimp loader" vertex="1">
+          <mxGeometry height="36" width="800" x="400" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Vertex" parent="1" style="swimlane;fontStyle=1;align=center;startSize=30;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;rounded=1;arcSize=4;" value="Vertex" vertex="1">
+          <mxGeometry height="110" width="210" x="60" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Vertex_fields" parent="Vertex" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=8;whiteSpace=pre;" value="+ position : glm::vec3&#xa;+ normal : glm::vec3&#xa;+ texcoord : glm::vec2" vertex="1">
+          <mxGeometry height="80" width="210" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Mesh" parent="1" style="swimlane;fontStyle=1;align=center;startSize=30;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;arcSize=4;" value="Mesh" vertex="1">
+          <mxGeometry height="150" width="210" x="60" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="Mesh_fields" parent="Mesh" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=8;whiteSpace=pre;" value="+ vao : GLuint&#xa;+ vbo : GLuint&#xa;+ ebo : GLuint&#xa;+ indexCount : int&#xa;+ albedoTex : GLuint&#xa;+ baseColor : glm::vec4" vertex="1">
+          <mxGeometry height="120" width="210" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Model" parent="1" style="swimlane;fontStyle=1;align=center;startSize=30;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;arcSize=4;" value=" Model" vertex="1">
+          <mxGeometry height="70" width="210" x="60" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="Model_fields" parent="Model" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=8;whiteSpace=pre;" value="+ meshes : vector&lt;Mesh&gt;" vertex="1">
+          <mxGeometry height="40" width="210" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ModelLoader" parent="1" style="swimlane;fontStyle=1;align=center;startSize=30;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;arcSize=4;" value="ModelLoader" vertex="1">
+          <mxGeometry height="130" width="210" x="60" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="ModelLoader_methods" parent="ModelLoader" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=8;whiteSpace=pre;fontSize=11;" value="+ loadModel(path, Model&amp;) : bool&#xa;+ drawModel(Model&amp;, shader, mat4)&#xa;+ destroyModel(Model&amp;)&#xa;- uploadPixels(...) : GLuint&#xa;- loadTexture(...) : GLuint&#xa;- buildMesh(...) : Mesh" vertex="1">
+          <mxGeometry height="100" width="210" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Light" parent="1" style="swimlane;fontStyle=1;align=center;startSize=30;fillColor=#fff2cc;strokeColor=#d6b656;rounded=1;arcSize=4;" value="Light" vertex="1">
+          <mxGeometry height="120" width="210" x="370" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Light_fields" parent="Light" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=8;whiteSpace=pre;" value="+ dir[3] : float&#xa;+ color[3] : float&#xa;+ intensity : float&#xa;+ enabled : bool" vertex="1">
+          <mxGeometry height="90" width="210" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LightingSettings" parent="1" style="swimlane;fontStyle=1;align=center;startSize=30;fillColor=#fff2cc;strokeColor=#d6b656;rounded=1;arcSize=4;" value="LightingSettings" vertex="1">
+          <mxGeometry height="310" width="230" x="370" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="LightingSettings_fields" parent="LightingSettings" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=8;whiteSpace=pre;fontSize=11;" value="+ lights[4] : Light&#xa;+ numLights : int&#xa;+ ambientColor[3] : float&#xa;+ ambientIntensity : float&#xa;+ specularPower : float&#xa;+ specularStrength : float&#xa;+ emissiveColor[3] : float&#xa;+ emissiveIntensity : float&#xa;+ rimColor[3] : float&#xa;+ rimPower : float&#xa;+ rimStrength : float&#xa;+ brightness : float&#xa;+ contrast : float&#xa;+ tintColor[3] : float&#xa;+ fogEnabled : bool&#xa;+ fogColor[3] : float&#xa;+ fogNear : float&#xa;+ fogFar : float" vertex="1">
+          <mxGeometry height="280" width="230" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Camera" parent="1" style="swimlane;fontStyle=1;align=center;startSize=30;fillColor=#e1d5e7;strokeColor=#9673a6;rounded=1;arcSize=4;" value="Camera" vertex="1">
+          <mxGeometry height="200" width="230" x="700" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Camera_fields" parent="Camera" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=8;whiteSpace=pre;" value="+ pos : glm::vec3&#xa;+ yaw : float&#xa;+ pitch : float&#xa;+ speed : float&#xa;+ sens : float&#xa;+ fov : float&#xa;+ front() : glm::vec3&#xa;+ right() : glm::vec3&#xa;+ view() : glm::mat4" vertex="1">
+          <mxGeometry height="170" width="230" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="App" parent="1" style="swimlane;fontStyle=1;align=center;startSize=30;fillColor=#f8cecc;strokeColor=#b85450;rounded=1;arcSize=4;" value="Application (main)" vertex="1">
+          <mxGeometry height="290" width="280" x="700" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="App_fields" parent="App" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=8;whiteSpace=pre;fontSize=11;" value="- g_cam : Camera&#xa;- shader : GLuint&#xa;- model : Model&#xa;- lighting : LightingSettings&#xa;- renderMode : int&#xa;- wireColor[3] : float&#xa;- bgColor[3] : float&#xa;- cullFace : bool&#xa;- depthTest : bool&#xa;- vsync : bool&#xa;- fpsDisplay : float&#xa;+ main()&#xa;+ onMouseBtn(...)&#xa;+ onMouseMove(...)&#xa;+ onScroll(...)&#xa;- processKeys(win, dt)&#xa;- applyLighting(shader, L)&#xa;- directionWidget(label, dir)&#xa;- compileShader(type, src)&#xa;- createProgram(vert, frag)" vertex="1">
+          <mxGeometry height="260" width="280" y="23" as="geometry" />
+        </mxCell>
+        <mxCell id="ext_assimp" parent="1" style="rounded=1;arcSize=8;fillColor=#f8d5d0;strokeColor=#ae4132;fontColor=#ae4132;fontStyle=1;" value="Assimp" vertex="1">
+          <mxGeometry height="40" width="130" x="1080" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ext_imgui" parent="1" style="rounded=1;arcSize=8;fillColor=#f8d5d0;strokeColor=#ae4132;fontColor=#ae4132;fontStyle=1;" value="ImGui" vertex="1">
+          <mxGeometry height="40" width="130" x="1080" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="ext_glfw" parent="1" style="rounded=1;arcSize=8;fillColor=#f8d5d0;strokeColor=#ae4132;fontColor=#ae4132;fontStyle=1;" value="GLFW" vertex="1">
+          <mxGeometry height="40" width="130" x="1080" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="ext_glad" parent="1" style="rounded=1;arcSize=8;fillColor=#f8d5d0;strokeColor=#ae4132;fontColor=#ae4132;fontStyle=1;" value="GLAD" vertex="1">
+          <mxGeometry height="40" width="130" x="1080" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="ext_glm" parent="1" style="rounded=1;arcSize=8;fillColor=#f8d5d0;strokeColor=#ae4132;fontColor=#ae4132;fontStyle=1;" value="GLM" vertex="1">
+          <mxGeometry height="40" width="130" x="1080" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="ext_nfd" parent="1" style="rounded=1;arcSize=8;fillColor=#f8d5d0;strokeColor=#ae4132;fontColor=#ae4132;fontStyle=1;" value="NFD" vertex="1">
+          <mxGeometry height="40" width="130" x="1080" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="ext_stb" parent="1" style="rounded=1;arcSize=8;fillColor=#f8d5d0;strokeColor=#ae4132;fontColor=#ae4132;fontStyle=1;" value="stb_image" vertex="1">
+          <mxGeometry height="40" width="130" x="1080" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="e_vertex_mesh" edge="1" parent="1" source="Mesh" style="edgeStyle=orthogonalEdgeStyle;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;" target="Vertex">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_model_mesh" edge="1" parent="1" source="Model" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;endFill=1;strokeColor=#6c8ebf;" target="Mesh">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_loader_model" edge="1" parent="1" source="ModelLoader" style="edgeStyle=orthogonalEdgeStyle;endArrow=open;endFill=0;strokeColor=#82b366;dashed=1;" target="Model">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_lighting_light" edge="1" parent="1" source="LightingSettings" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;endFill=1;strokeColor=#d6b656;" target="Light">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_app_camera" edge="1" parent="1" source="App" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;endFill=1;strokeColor=#9673a6;" target="Camera">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_app_lighting" edge="1" parent="1" source="App" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;endFill=1;strokeColor=#d6b656;" target="LightingSettings">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_app_model" edge="1" parent="1" source="App" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;endFill=1;strokeColor=#6c8ebf;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="Model">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="700" y="480" />
+              <mxPoint x="660" y="480" />
+              <mxPoint x="660" y="595" />
+              <mxPoint x="349" y="595" />
+              <mxPoint x="349" y="505" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_app_loader" edge="1" parent="1" source="App" style="edgeStyle=orthogonalEdgeStyle;dashed=1;endArrow=open;endFill=0;strokeColor=#82b366;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="ModelLoader">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="700" y="675" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_app_assimp" edge="1" parent="1" source="App" style="edgeStyle=orthogonalEdgeStyle;dashed=1;endArrow=open;endFill=0;strokeColor=#ae4132;" target="ext_assimp">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1062" y="485" />
+              <mxPoint x="1062" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_app_imgui" edge="1" parent="1" source="App" style="edgeStyle=orthogonalEdgeStyle;dashed=1;endArrow=open;endFill=0;strokeColor=#ae4132;" target="ext_imgui">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1063" y="485" />
+              <mxPoint x="1063" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_app_glfw" edge="1" parent="1" source="App" style="edgeStyle=orthogonalEdgeStyle;dashed=1;endArrow=open;endFill=0;strokeColor=#ae4132;" target="ext_glfw">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1065" y="485" />
+              <mxPoint x="1065" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_app_glad" edge="1" parent="1" source="App" style="edgeStyle=orthogonalEdgeStyle;dashed=1;endArrow=open;endFill=0;strokeColor=#ae4132;" target="ext_glad">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1061" y="485" />
+              <mxPoint x="1061" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_app_glm" edge="1" parent="1" source="App" style="edgeStyle=orthogonalEdgeStyle;dashed=1;endArrow=open;endFill=0;strokeColor=#ae4132;" target="ext_glm">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_app_nfd" edge="1" parent="1" source="App" style="edgeStyle=orthogonalEdgeStyle;dashed=1;endArrow=open;endFill=0;strokeColor=#ae4132;" target="ext_nfd">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_loader_stb" edge="1" parent="1" source="ModelLoader_methods" style="edgeStyle=orthogonalEdgeStyle;dashed=1;endArrow=open;endFill=0;strokeColor=#ae4132;exitX=1;exitY=0.5;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="270" y="684" />
+              <mxPoint x="273" y="684" />
+              <mxPoint x="273" y="680" />
+              <mxPoint x="1103" y="680" />
+            </Array>
+            <mxPoint x="317" y="684" as="sourcePoint" />
+            <mxPoint x="1102.9999999999998" y="485" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="leg1" edge="1" parent="1" style="endArrow=block;endFill=1;strokeColor=#6c8ebf;" value="">
+          <mxGeometry height="10" width="60" x="70" y="848" as="geometry">
+            <Array as="points">
+              <mxPoint x="70" y="848" />
+              <mxPoint x="130" y="848" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="leg2" edge="1" parent="1" style="endArrow=open;endFill=0;dashed=1;strokeColor=#82b366;" value="">
+          <mxGeometry height="10" width="60" x="70" y="873" as="geometry">
+            <Array as="points">
+              <mxPoint x="70" y="873" />
+              <mxPoint x="130" y="873" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="leg3" edge="1" parent="1" style="endArrow=open;endFill=0;dashed=1;strokeColor=#ae4132;" value="">
+          <mxGeometry height="10" width="60" x="70" y="898" as="geometry">
+            <Array as="points">
+              <mxPoint x="70" y="898" />
+              <mxPoint x="130" y="898" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ovHVFsEOR16OTi9KzGIa-4" parent="1" style="rounded=1;arcSize=8;fillColor=#f8d5d0;strokeColor=#ae4132;fontColor=#ae4132;fontStyle=1;" value="Model loader" vertex="1">
+          <mxGeometry height="40" width="130" x="1219" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ovHVFsEOR16OTi9KzGIa-5" parent="1" style="rounded=1;arcSize=8;fillColor=#f8d5d0;strokeColor=#ae4132;fontColor=#ae4132;fontStyle=1;" value="GUI helper" vertex="1">
+          <mxGeometry height="40" width="130" x="1219" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="ovHVFsEOR16OTi9KzGIa-6" parent="1" style="rounded=1;arcSize=8;fillColor=#f8d5d0;strokeColor=#ae4132;fontColor=#ae4132;fontStyle=1;" value="Window support" vertex="1">
+          <mxGeometry height="40" width="130" x="1219" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="ovHVFsEOR16OTi9KzGIa-7" parent="1" style="rounded=1;arcSize=8;fillColor=#f8d5d0;strokeColor=#ae4132;fontColor=#ae4132;fontStyle=1;" value="Cross-platform" vertex="1">
+          <mxGeometry height="40" width="130" x="1219" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="ovHVFsEOR16OTi9KzGIa-8" parent="1" style="rounded=1;arcSize=8;fillColor=#f8d5d0;strokeColor=#ae4132;fontColor=#ae4132;fontStyle=1;" value="Math" vertex="1">
+          <mxGeometry height="40" width="130" x="1219" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="ovHVFsEOR16OTi9KzGIa-9" parent="1" style="rounded=1;arcSize=8;fillColor=#f8d5d0;strokeColor=#ae4132;fontColor=#ae4132;fontStyle=1;" value="Texture helper" vertex="1">
+          <mxGeometry height="40" width="130" x="1219" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="ovHVFsEOR16OTi9KzGIa-10" parent="1" style="rounded=1;arcSize=8;fillColor=#f8d5d0;strokeColor=#ae4132;fontColor=#ae4132;fontStyle=1;" value=" File helper" vertex="1">
+          <mxGeometry height="40" width="130" x="1219" y="380" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

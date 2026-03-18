@@ -1,0 +1,12 @@
+/Users/seangandre/Documents/GitHub/Atlys/Native/Assimp/build/CMakeFiles/glad_gl_core.dir
+/Users/seangandre/Documents/GitHub/Atlys/Native/Assimp/build/CMakeFiles/imgui_lib.dir
+/Users/seangandre/Documents/GitHub/Atlys/Native/Assimp/build/CMakeFiles/model_viewer.dir
+/Users/seangandre/Documents/GitHub/Atlys/Native/Assimp/build/CMakeFiles/edit_cache.dir
+/Users/seangandre/Documents/GitHub/Atlys/Native/Assimp/build/CMakeFiles/rebuild_cache.dir
+/Users/seangandre/Documents/GitHub/Atlys/Native/Assimp/build/_deps/glad-build/CMakeFiles/edit_cache.dir
+/Users/seangandre/Documents/GitHub/Atlys/Native/Assimp/build/_deps/glad-build/CMakeFiles/rebuild_cache.dir
+/Users/seangandre/Documents/GitHub/Atlys/Native/Assimp/build/_deps/nfd-build/CMakeFiles/edit_cache.dir
+/Users/seangandre/Documents/GitHub/Atlys/Native/Assimp/build/_deps/nfd-build/CMakeFiles/rebuild_cache.dir
+/Users/seangandre/Documents/GitHub/Atlys/Native/Assimp/build/_deps/nfd-build/src/CMakeFiles/nfd.dir
+/Users/seangandre/Documents/GitHub/Atlys/Native/Assimp/build/_deps/nfd-build/src/CMakeFiles/edit_cache.dir
+/Users/seangandre/Documents/GitHub/Atlys/Native/Assimp/build/_deps/nfd-build/src/CMakeFiles/rebuild_cache.dir

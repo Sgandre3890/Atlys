@@ -1,0 +1,3 @@
+/Users/seangandre/Documents/GitHub/Atlys/Native/Assimp/build/_deps/nfd-subbuild/CMakeFiles/nfd-populate.dir
+/Users/seangandre/Documents/GitHub/Atlys/Native/Assimp/build/_deps/nfd-subbuild/CMakeFiles/edit_cache.dir
+/Users/seangandre/Documents/GitHub/Atlys/Native/Assimp/build/_deps/nfd-subbuild/CMakeFiles/rebuild_cache.dir
