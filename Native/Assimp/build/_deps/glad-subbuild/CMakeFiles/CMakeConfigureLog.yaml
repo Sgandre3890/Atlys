@@ -70,7 +70,7 @@ events:
   -
     kind: "find-v1"
     backtrace:
-      - "/opt/homebrew/share/cmake/Modules/Platform/Darwin.cmake:76 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/Platform/Darwin.cmake:66 (find_program)"
       - "/opt/homebrew/share/cmake/Modules/CMakeSystemSpecificInformation.cmake:32 (include)"
       - "CMakeLists.txt:16 (project)"
     mode: "program"

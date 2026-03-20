@@ -6,13 +6,11 @@ in vec2 v_TexCoord;
 
 out vec4 FragColor;
 
-// ── Render mode ───────────────────────────────────────────────────────────────
 // 0 = solid (full lighting)
 // 1 = flat color (used for wireframe / points pass)
 uniform int  u_RenderMode;
 uniform vec4 u_FlatColor;   // used when u_RenderMode == 1
 
-// ── Material ──────────────────────────────────────────────────────────────────
 uniform vec4      u_BaseColor;
 uniform int       u_HasAlbedo;
 uniform sampler2D u_AlbedoTex;
@@ -20,30 +18,24 @@ uniform float     u_Brightness;
 uniform float     u_Contrast;
 uniform vec3      u_TintColor;
 
-// ── Lights (up to 4) ──────────────────────────────────────────────────────────
 uniform int   u_NumLights;
-uniform vec3  u_LightDir[4];
+uniform vec3  u_LightDir[4]; // Can have up to 4 lights
 uniform vec3  u_LightColor[4];
 uniform float u_LightIntensity[4];
 
-// ── Ambient ───────────────────────────────────────────────────────────────────
 uniform vec3  u_AmbientColor;
 uniform float u_AmbientIntensity;
 
-// ── Specular ──────────────────────────────────────────────────────────────────
 uniform float u_SpecularPower;
 uniform float u_SpecularStrength;
 
-// ── Emissive ──────────────────────────────────────────────────────────────────
 uniform vec3  u_EmissiveColor;
 uniform float u_EmissiveIntensity;
 
-// ── Rim ───────────────────────────────────────────────────────────────────────
 uniform vec3  u_RimColor;
 uniform float u_RimPower;
 uniform float u_RimStrength;
 
-// ── Fog ───────────────────────────────────────────────────────────────────────
 uniform int   u_FogEnabled;
 uniform vec3  u_FogColor;
 uniform float u_FogNear;
@@ -58,7 +50,6 @@ void main() {
         return;
     }
 
-    // ── Albedo ────────────────────────────────────────────────────────────────
     vec4 albedo = u_BaseColor;
     if (u_HasAlbedo == 1)
         albedo *= texture(u_AlbedoTex, v_TexCoord);
@@ -66,10 +57,8 @@ void main() {
     vec3 N = normalize(v_Normal);
     vec3 V = normalize(u_CameraPos - v_WorldPos);
 
-    // ── Ambient ───────────────────────────────────────────────────────────────
     vec3 color = u_AmbientColor * u_AmbientIntensity * albedo.rgb;
 
-    // ── Directional lights ────────────────────────────────────────────────────
     for (int i = 0; i < u_NumLights; ++i) {
         vec3  L    = normalize(u_LightDir[i]);
         vec3  H    = normalize(L + V);
@@ -78,22 +67,17 @@ void main() {
         color += u_LightColor[i] * u_LightIntensity[i] * (albedo.rgb * diff + vec3(spec));
     }
 
-    // ── Emissive ──────────────────────────────────────────────────────────────
     color += u_EmissiveColor * u_EmissiveIntensity;
 
-    // ── Rim ───────────────────────────────────────────────────────────────────
     float rim = pow(1.0 - max(dot(N, V), 0.0), u_RimPower) * u_RimStrength;
     color += u_RimColor * rim;
 
-    // ── Tint / brightness / contrast ──────────────────────────────────────────
     color *= u_TintColor;
     color  = (color - 0.5) * u_Contrast + 0.5;
     color *= u_Brightness;
 
-    // ── Gamma ─────────────────────────────────────────────────────────────────
-    color = pow(max(color, vec3(0.0)), vec3(1.0 / 2.2));
+    color = pow(max(color, vec3(0.0)), vec3(1.0 / 2.2)); // Gamma
 
-    // ── Fog ───────────────────────────────────────────────────────────────────
     if (u_FogEnabled == 1) {
         float dist   = length(u_CameraPos - v_WorldPos);
         float fogAmt = clamp((dist - u_FogNear) / (u_FogFar - u_FogNear), 0.0, 1.0);

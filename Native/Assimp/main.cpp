@@ -208,19 +208,19 @@ int main() {
     bool           modelLoaded  = false;
     std::string    statusMsg    = "Click \"Open Model\" to get started.";
     float          bgColor[3]   = { 0.15f, 0.15f, 0.18f };
-    // 0=Solid  1=Wireframe  2=Solid+Wireframe overlay  3=Points
+    // 0 = Solid  1 = Wireframe  2 = Solid+Wireframe overlay  3 = Points
     int            renderMode    = 0;
     float          wireColor[3]  = { 0.0f, 0.8f, 1.0f };
     float          wireThickness = 1.0f;
 
     // Performance toggles
-    bool           cullFace      = true;   // back-face culling
-    int            cullMode      = 0;      // 0=back 1=front 2=both
+    bool           cullFace      = true;   
+    int            cullMode      = 0;      // 0 = back 1 = front 2 = both
     bool           depthTest     = true;
     bool           depthWrite    = true;
     bool           msaa          = true;
     bool           vsync         = true;
-    int            fpsLimit      = 0;      // 0=unlimited
+    int            fpsLimit      = 0;      // 0 = unlimited
     LightingSettings lighting;
 
     nfdfilteritem_t filters[] = {
@@ -258,7 +258,7 @@ int main() {
         ImGui::Begin("Model Viewer", nullptr,
                      ImGuiWindowFlags_NoResize | ImGuiWindowFlags_NoMove);
 
-        if (ImGui::Button("Open Model...", ImVec2(-1, 36))) {
+        if (ImGui::Button("Open a Model", ImVec2(-1, 36))) {
             nfdchar_t* p = nullptr;
             if (NFD_OpenDialog(&p, filters, 2, nullptr) == NFD_OKAY) {
                 destroyModel(model);
@@ -281,7 +281,7 @@ int main() {
             ImGui::SliderFloat("FOV",    &g_cam.fov,   20.f, 120.f);
             ImGui::Text("Pos: %.2f  %.2f  %.2f", g_cam.pos.x, g_cam.pos.y, g_cam.pos.z);
             if (ImGui::Button("Reset Camera")) g_cam = Camera{};
-            ImGui::TextDisabled("WASD/arrows=move  Q/E=up/down  drag=look");
+            ImGui::TextDisabled("WASD/arrows to move,  Q/E = up/down  drag =look around, scroll = zoom");
         }
 
         if (ImGui::CollapsingHeader("Lights", ImGuiTreeNodeFlags_DefaultOpen)) {

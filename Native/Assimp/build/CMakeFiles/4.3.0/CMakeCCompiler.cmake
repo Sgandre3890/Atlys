@@ -23,6 +23,7 @@ set(CMAKE_C_COMPILER_ARCHITECTURE_ID "arm64")
 
 
 
+
 set(CMAKE_AR "/usr/bin/ar")
 set(CMAKE_C_COMPILER_AR "")
 set(CMAKE_RANLIB "/usr/bin/ranlib")
