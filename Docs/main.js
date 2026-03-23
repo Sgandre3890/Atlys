@@ -11,10 +11,6 @@ if (!gl) {
     alert("WebGL not supported");
 }
 
-// ----------------------------
-// WebGL State Setup
-// ----------------------------
-
 // Enable depth testing
 gl.enable(gl.DEPTH_TEST);
 gl.depthFunc(gl.LEQUAL);
@@ -28,10 +24,6 @@ gl.viewport(0, 0, canvas.width, canvas.height);
 
 // Clear color
 gl.clearColor(0.1, 0.1, 0.1, 1.0);
-
-// ----------------------------
-// Shader Source
-// ----------------------------
 
 const vsSource = `
 attribute vec3 aPos;
