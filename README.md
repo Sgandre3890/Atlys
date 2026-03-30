@@ -1,27 +1,8 @@
-# Atlys
+# 3D Model Viewer
+IB Computer Science IA 2026: 3D model viewer built with C++ and OpenGL and other libraries.
 
-## 3D Model Loader
-UML Diagram
-![Diagram](Resources/Images/UMLDiagram.png)
- Web Mockup Program
-![Mockup](Resources/Images/RunningExample.png)
+This program lets you view 3D models under the following formats: .obj, .fbx, .gltf, .glb, and .dae. The models are rendered in real time with cool display settings, an customizable camera, and lots of lighting controls.
 
-### Examples from other repos
--https://wikis.khronos.org/webgl/Demo_Repository
+<br />
 
-### Live example of the mockup:
-https://sgandre3890.github.io/UltraKill/
-
-### My Native OpenGL Repo:
-https://github.com/Sgandre3890/OpenGL
-![Diagram](Resources/Images/Native_UML_Screenshot.png)
-
-### Tutorials from which I learned openGL for Native:
-- https://learnopengl.com/book/book_pdf.pdf
-- https://github.com/JoeyDeVries/LearnOpenGL
-
-
-### Description:
-The purpose of this project is to have some kind of universal model loader. The idea is to have both a native and web based approach where the web based model loder would be able to load more simple models that everyone in the class could interact with. And the native version could be for more complex and demanding tasks that would have more complex lighting for physics.
-
-
+The model loader is built using OpenGL with Assimp for model loading, GLFW for window creation, GLM for math, STB Image for textures , and ImGui for the UI.

@@ -1,1 +1,0 @@
---out-path /Users/seangandre/Documents/GitHub/Atlys/Native/Assimp/build/gladsources/glad_gl_core --api gl:core=3.3 --reproducible c --loader
